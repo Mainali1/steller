@@ -42,4 +42,5 @@ JEIEvents.hideItems(event => {
     event.hide('projecte:gem_leggings')
     event.hide('projecte:gem_boots')
     event.hide('projecte:arcana_ring')
+    event.hide('projecte:life_stone')
 });  

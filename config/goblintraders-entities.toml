@@ -112,7 +112,7 @@ preventDespawnIfNamed = true
 	traderDespawnDelay = 24000
 	# The chance out of one hundred that the trader will spawn in the over world
 	# Valid range: 1 to 100 (inclusive)
-	traderSpawnChance = 25
+	traderSpawnChance = 5
 	# The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 	# Valid range: -1 to 2147483647 (inclusive)
 	restockDelay = 48000

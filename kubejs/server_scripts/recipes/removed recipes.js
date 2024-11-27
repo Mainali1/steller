@@ -64,6 +64,34 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'farmersdelight:nether_salad' });
     event.remove({ output: 'farmersdelight:mixed_salad' });
     event.remove({ output: 'farmersdelight:fruit_salad' });
+    event.remove({ output: 'delightful:matcha_milkshake' });
+    event.remove({ output: 'delightful:salmonberry_milkshake' });
+    event.remove({ output: 'delightful:smore' });
+    event.remove({ output: 'delightful:cantaloupe_bread' });
+    event.remove({ output: 'alexscavesdelight:ferrouslime_ball_sandwich' });
+    event.remove({ output: 'alexscavesdelight:heart_of_iron_humburger' });
+    event.remove({ output: 'alexscavesdelight:toxic_hamburger' });
+    event.remove({ output: 'alexscavesdelight:pure_darkness_shake' });
+    event.remove({ output: 'alexscavesdelight:magma_jem' });
+    event.remove({ output: 'alexscavesdelight:bioluminescence_jem' });
+    event.remove({ output: 'alexscavesdelight:bioluminescence_pie' });
+    event.remove({ output: 'alexscavesdelight:acid_pasta' });
+    event.remove({ output: 'alexscavesdelight:bioluminescence_custard' });
+    event.remove({ output: 'alexscavesdelight:caramel_cookie' });
+    event.remove({ output: 'alexscavesdelight:caramel_pie' });
+    event.remove({ output: 'alexscavesdelight:chocolate_cookie' });
+    event.remove({ output: 'alexscavesdelight:chocolate_ice_cream' });
+    event.remove({ output: 'alexscavesdelight:fiddlehead_roll' });
+    event.remove({ output: 'alexscavesdelight:lanternfish_roll' });
+    event.remove({ output: 'alexscavesdelight:licoroot_roll' });
+    event.remove({ output: 'alexscavesdelight:meat_stick' });
+    event.remove({ output: 'alexscavesdelight:pewen_sap_dough' });
+    event.remove({ output: 'alexscavesdelight:pine_nuts_cookie' });
+    event.remove({ output: 'alexscavesdelight:radgill_roll' });
+    event.remove({ output: 'alexscavesdelight:sulfur_cookie' });
+    event.remove({ output: 'alexscavesdelight:sulfer_jam' });
+    event.remove({ output: 'alexscavesdelight:sweet_puff_jem' });
+    //event.remove({ output: '' });
     event.remove({ output: 'endersdelight:crawling_sandwich' });
     event.remove({ output: 'endersdelight:crispy_skewer' });
     event.remove({ output: 'endersdelight:strange_eclair' });
@@ -128,6 +156,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'projecte:gem_boots' });
     event.remove({ output: 'projecte:arcana_ring' });
     event.remove({ output: 'create_dd:item_stockpile' });
+    event.remove({ output: 'projecte:life_stone'});
 
     // Remove by recipe name
     event.remove({ id: 'betterwithminecolonies:minecolonies/coal_to_diamond' });

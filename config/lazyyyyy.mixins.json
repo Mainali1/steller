@@ -1,0 +1,7 @@
+{
+    "async_entity_renderers": false,
+    "async_model_baking": true,
+    "yacl.lazy_animated_image": true,
+    "kiwi.faster_annotation": true,
+    "esf.async_sound_events": true
+}

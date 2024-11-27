@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         result: { item: 'alexsdelight:bison_burger' },
         container: { item: 'minecraft:bread' },
         experience: 20,
-        cookingtime: 15,
+        cookingtime: 300,
         recipeBookTab: 'misc'
     });
     // Kangaroo Burger Recipe
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         result: { item: 'alexsmobs:kangaroo_burger' },
         container: { item: 'minecraft:bread' },
         experience: 15,
-        cookingtime: 25,
+        cookingtime: 500,
         recipeBookTab: 'misc'
     });
     //cheese Burger Recipe
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
         result: { item: 'delightful:cheeseburger' },
         container: { item: 'minecraft:bread' },
         experience: 30,
-        cookingtime: 25,
+        cookingtime: 500,
         recipeBookTab: 'misc'
     });
     // Pancake Recipe
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
     result: { item: 'supplementaries:pancake', count: 3 },
     container: { item: 'minecraft:air' },
     experience: 5,
-    cookingtime: 5,
+    cookingtime: 100,
     recipeBookTab: 'misc'
     });
     // Cooked Tentacle Recipe
@@ -69,7 +69,7 @@ event.custom({
     result: { item: 'oceansdelight:baked_tentacle_on_a_stick' },
     container: { item: 'minecraft:stick' },
     experience: 15,
-    cookingtime: 10,
+    cookingtime: 200,
     recipeBookTab: 'misc'
     });
     // Elder Guardian Roll Recipe
@@ -744,8 +744,8 @@ event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
             { item: 'minecraft:baked_potato' },
-            { tag: 'items:forge:cooked_beef' },
-            { tag: 'items:forge:milk' }
+            { tag: 'forge:cooked_beef' },
+            { tag: 'forge:milk' }
         ],
         result: { item: 'farmersdelight:stuffed_potato' },
         container: { item: 'minecraft:air' },
@@ -757,8 +757,8 @@ event.custom({
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
-            { tag: 'items:forge:cooked_mutton' },
-            { tag: 'items:forge:salad_ingredients' },
+            { tag: 'forge:cooked_mutton' },
+            { tag: 'forge:salad_ingredients' },
             { item: 'farmersdelight:onion' }
         ],
         result: { item: 'farmersdelight:mutton_wrap' },
@@ -771,8 +771,8 @@ event.custom({
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
-            { tag: 'items:forge:cooked_bacon' },
-            { tag: 'items:forge:salad_ingredients' },
+            { tag: 'forge:cooked_bacon' },
+            { tag: 'forge:salad_ingredients' },
             { item: 'farmersdelight:tomato' }
         ],
         result: { item: 'farmersdelight:bacon_sandwich' },
@@ -982,4 +982,379 @@ event.custom({
         cookingtime: 200,
         recipeBookTab: 'misc'
     });
+    //Matcha Milkshake Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'delightful:matcha_ice_cream' },
+            { tag: 'forge:milks' }
+        ],
+        result: { item: 'delightful:matcha_milkshake' },
+        container: { item: 'minecraft:glass_bottle'},
+        experience: 5,
+        cookingtime: 60,
+        recipeBookTab: 'drinks'
+    });
+    //Salmonberry Milkshake Recipe   
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'delightful:salmonberry_ice_cream' },
+            { tag: 'forge:milks' }
+        ],
+        result: { item: 'delightful:salmonberry_milkshake' },
+        container: { item: 'minecraft:glass_bottle'},
+        experience: 5,
+        cookingtime: 60,
+        recipeBookTab: 'drinks'
+    });
+    //S'more Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:honey_cookie' },
+            { tag: 'bakery:chocolate'},
+            { item: 'delightful:cooked_marshmellow_stick' },
+            { item: 'farmersdelight:honey_cookie' },
+        ],
+        result: {item: 'delightful:smore'},
+        container: { item: 'minecraft:air' },
+        experience: 7,
+        cookingtime: 140,
+        recipeBookTab: 'misc'
+    });
+    //Cantaloupe Bread
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'delightful:cantaloupe_slice' },
+            { tag: 'candlelight:dough' }
+        ],
+        result: { item: 'delightful:cantaloupe_bread' },
+        container: { item: 'minecraft:air' },
+        experience: 5,
+        cookingtime: 200,
+        recipeBookTab: 'misc'
+    });
+    //Ferrouslime Ball Sandwich
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'minecraft:bread' },
+            { item: 'alexscavesdelight:cooked_ferrouslime_ball' },
+            { item: 'minecraft:bread' }
+        ],
+        result: { item: 'alexscavesdelight:ferrouslime_ball_sandwich' },
+        container: { item: 'minecraft:air' },
+        experience: 8,
+        cookingtime: 260,
+        recipeBookTab: 'misc'
+    });
+    //Heart Of Iron Humburger Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'minecraft:bread' },
+            { item: 'alexscavesdelight:cooked_heart_of_iron' },
+            { item: 'minecraft:bread' }
+        ],
+        result: { item: 'alexscavesdelight:heart_of_iron_humburger' },
+        container: { item: 'minecraft:air' },
+        experience: 8,
+        cookingtime: 260,
+        recipeBookTab: 'misc'
+    });
+    //Toxic Hamburger Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:polymer_plate' },
+            { tag: 'forge:raw_materials/uranium' },
+            { item: 'alexscaves:polymer_plate' }
+        ],
+        result: { item: 'alexscavesdelight:toxic_hamburger' },
+        counter: {item: 'minecraft:air' },
+        experience: 10,
+        cookingtime: 300,
+        recipeBookTab: 'misc'
+    });
+    //Pure Darkness Shake Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:pure_darkness' },
+            { item: 'alexscaves:pure_darkness' },
+            { item: 'alexscaves:pure_darkness' },
+            { item: 'alexscaves:pure_darkness' }
+        ],
+        result: { item: 'alexscavesdelight:pure_darkness_shake' },
+        container: { item: 'minecraft:glass_bottle' },
+        experience: 50,
+        cookingtime: 440,
+        recipeBookTab: 'drinks'
+    });   
+    //Magma Jem Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'minecraft:magma_block' },
+            { item: 'alexscaves:tectonic_shard' },
+            { item: 'minecraft:suger' },
+            { item: 'minecraft:suger' }
+        ],
+        result: { item: 'alexscavesdelight:magma_jem' },
+        container: { item: 'minecraft:glass_bottle' },
+        experience: 40,
+        cookingtime: 240,
+        recipeBookTab: 'misc'
+    });
+    //Bioluminesscence Jem Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:bioluminesscence' },
+            { item: 'alexscaves:bioluminesscence' },
+            { item: 'minecraft:suger' },
+        ],
+        result: { item: 'alexscavesdelight:bioluminesscence_jem', count: 5 },
+        container: { item: 'minecraft:glass_bottle' },
+        experience: 55,
+        cookingtime: 300,
+        recipeBookTab: 'drinks'
+    });
+    //Bioluminescence Jem Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscavesdelight:bioluminesscence_jem' },
+            { item: 'alexscavesdelight:bioluminesscence_jem' }
+        ],
+        result: { item: 'alexscavesdelight:bioluminesscence_pie' },
+        container: { item: 'farmersdelight:pie_crust' },
+        experience: 60,
+        cookingtime: 300,
+        recipeBookTab: 'misc'
+    });
+    //Acid Pasta Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:raw_pasta' },
+            { item: 'alexscaves:acid_bucket' }
+        ],
+        result: { item: 'alexscavesdelight:acid_pasta' },
+        container: { item: 'minecraft:air' },
+        experience: 4,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
+    });
+    //Caramel Cookie Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:caramel' },
+            { item: 'minecraft:wheat' }
+        ],
+        result: { item: 'alexscavesdelight:caramel_cookie', count: 8 },
+        container: { item: 'minecraft:air' },
+        experience: 3,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
+    });
+    //Caramel Pie Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:caramel' },
+            { item: 'alexscaves:caramel' }
+        ],
+        result: { item: 'alexscavesdelight:caramel_pie' },
+        container: { item: 'farmersdelight:pie_crust' },
+        experience: 4,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
+    });
+    //Chocolate Cokie Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:hot_chocolate_bottle' },
+            { item: 'minecraft:wheat' }
+        ],
+        result: { item: 'alexscavesdelight:chocolate_cookie', count: 8 },
+        container: { item: 'minecraft:air' },
+        experience: 3,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
+    });
+    //Chocolate Ice Cream Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:hot_chocolate_bottle' },
+            { item: 'minecraft:stick' },
+            { item: 'minecraft:ice' }
+        ],
+        result: { item: 'alexscavesdelight:chocolate_ice_cream', count: 8 },
+        container: { item: 'minecraft:air' },
+        experience: 4,
+        cookingtime: 140,
+        recipeBookTab: 'misc'
+    });
+    //Fiddlehead Roll Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'minecraft:carrot' },
+            { item: 'alexscaves:fiddlehead' },
+            { item: 'alexscaves:fiddlehead' },
+            { item: 'alexscaves:fiddlehead' }
+        ],
+        result: { item: 'alexscavesdelight:fiddlehead_roll' },
+        container: { item: 'minecraft:air' },
+        experience: 5,
+        cookingtime: 200,
+        recipeBookTab: 'misc'
+    });
+    //Lanternfish Roll Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'alexscavesdelight:cut_cooked_lanternfish' },
+            { item: 'alexscavesdelight:cut_cooked_lanternfish' }
+        ],
+        result: { item: 'alexscavesdelight:lanternfish_roll' },
+        container: { item: 'minecraft:air' },
+        experience: 8,
+        cookingtime: 160,
+        recipeBookTab: 'misc'
+    });
+    //Licoroot Roll Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'minecraft:carrot' },
+            { item: 'alexscaves:licoroot_vine' },
+            { item: 'alexscaves:licoroot_vine' },
+            { item: 'alexscaves:licoroot_vine' }
+        ],
+        result: { item: 'alexscavesdelight:licoroot_roll' },
+        container: { item: 'minecraft:air' },
+        experience: 5,
+        cookingtime: 200,
+        recipeBookTab: 'misc'
+    });
+    //Meat Stick Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:cooked_mussel' },
+            { item: 'alexscaves:cooked_trilocaris_tail' },
+            { item: 'alexscaves:vasper_wing' },
+        ],
+        result: { item: 'alexscavesdelight:meat_stick' },
+        container: { item: 'minecraft:stick' },
+        experience: 10,
+        cookingtime: 180,
+        recipeBookTab: 'misc'
+    });
+    //Pewen Sap Dough Rrecipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:wheat_dough' },
+            { item: 'alexscaves:pewen_sap' }
+        ],
+        result: { item: 'alexscavesdelight:pewen_sap_dough' },
+        container: { item: 'minecraft:air' },
+        experience: 3,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
+    });
+    //Pine Nuts Cookie Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:pine_nuts' },
+            { item: 'minecraft:wheat' }
+        ],
+        result: { item: 'alexscavesdelight:pine_nuts_cookie', count: 8 },
+        container: { item: 'minecraft:air' },
+        experience: 3,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
+    });
+    //Radgill Roll Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'alexscaves:cut_cooked_radgill' },
+            { item: 'alexscaves:cut_cooked_radgill' }
+        ],
+        result: { item: 'alexscavesdelight:radgill_roll', count: 2 },
+        container: { item: 'minecraft:air' },
+        experience: 8,
+        cookingtime: 160,
+        recipeBookTab: 'misc'
+    });
+    //Sulfur Cookie Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { tag: 'forge:dusts/sulfur' },
+            { item: 'minecraft:wheat' }
+        ],
+        result: { item: 'alexscavesdelight:sulfur_cookie', count: 8 },
+        container: { item: 'minecraft:air' },
+        experience: 3,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
+    });
+    //Sulfer Jam Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { tag: 'forge:dusts/sulfur' },
+            { item: 'minecraft:sugar' },
+            { item: 'minecraft:sugar' }
+        ],
+        result: { item: 'alexscavesdelight:sulfur_jem', count: 5 },
+        container: { item: 'minecraft:glass_bottle' },
+        experience: 20,
+        cookingtime: 200,
+        recipeBookTab: 'drinks'
+    });
+    //Sweet Puff Jem Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:sweet_puff' },
+            { item: 'minecraft:sugar' },
+            { item: 'minecraft:sugar' }
+        ],
+        result: { item: 'alexscavesdelight:sweet_puff_jem', count: 5 },
+        container: { item: 'minecraft:glass_bottle' },
+        experience: 20,
+        cookingtime: 200,
+        recipeBookTab: 'drinks'
+    });
+    //Sweetberry Ice cream
+    event.custom({
+        type: [
+            { item: 'alexscaves:sweetberry_ice_cream_scoop' },
+            { item: 'minecraft:ice' }
+        ],
+        result: { item: 'alexscavesdelight:sweetberry_ice_cream', count: 8 },
+        container: { item: 'minecraft:air' },
+        experience: 6,
+        cookingtime: 60,
+        recipeBookTab: 'misc'
+    });
+    //Toxic Jem
 });

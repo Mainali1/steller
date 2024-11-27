@@ -361,9 +361,6 @@
 		[types.wood_type.cataclysm]
 			chorus = true
 
-		[types.wood_type.betterarcheology]
-			rotten = true
-
 		[types.wood_type.northstar]
 			coiler = true
 			wilter = true
@@ -388,6 +385,9 @@
 		[types.wood_type.alexscaves]
 			pewen = true
 			thornwood = true
+
+		[types.wood_type.betterarcheology]
+			rotten = true
 
 	[types.cut_block_type]
 
@@ -485,15 +485,6 @@
 			maple = true
 			empyreal = true
 
-		[types.cut_block_type.dustrial_decor]
-			cast_iron_brick = true
-			sheet_metal_plating = true
-			sheet_metal_treading = true
-			rusty_sheet_metal_plating = true
-			rusty_sheet_metal_treading = true
-			cinder_brick = true
-			smooth_cardboard = true
-
 		[types.cut_block_type.valhelsia_structures]
 			lapidified_jungle = true
 
@@ -503,10 +494,6 @@
 			chorus = true
 			frosted_stone_brick = true
 			stone_tile = true
-
-		[types.cut_block_type.betterarcheology]
-			rotten = true
-			cracked_mud_brick = true
 
 		[types.cut_block_type.createdeco]
 			short_red_brick = true
@@ -937,6 +924,19 @@
 			stone_tile = true
 			blackstone_tile = true
 
+		[types.cut_block_type.dustrial_decor]
+			cast_iron_brick = true
+			sheet_metal_plating = true
+			sheet_metal_treading = true
+			rusty_sheet_metal_plating = true
+			rusty_sheet_metal_treading = true
+			cinder_brick = true
+			smooth_cardboard = true
+
+		[types.cut_block_type.betterarcheology]
+			rotten = true
+			cracked_mud_brick = true
+
 #Disables specific entries
 [entries]
 
@@ -1089,28 +1089,6 @@
 			pillar_trim = true
 			nightstand = true
 
-		[entries.wood_type.refurbished_furniture]
-			storage_cabinet = true
-			desk = true
-			cutting_board = true
-			lattice_fence = true
-			basin = true
-			kitchen_drawer = true
-			kitchen_cabinetry = true
-			chair = true
-			light_ceiling_fan = true
-			table = true
-			mail_box = true
-			kitchen_storage_cabinet = true
-			storage_jar = true
-			drawer = true
-			kitchen_sink = true
-			toilet = true
-			crate = true
-			dark_ceiling_fan = true
-			lattice_fence_gate = true
-			bath = true
-
 		[entries.wood_type.decoration_delight]
 			mosaic = true
 			counter = true
@@ -1169,4 +1147,26 @@
 		[entries.wood_type.create]
 			window_pane = true
 			window = true
+
+		[entries.wood_type.refurbished_furniture]
+			storage_cabinet = true
+			desk = true
+			cutting_board = true
+			lattice_fence = true
+			basin = true
+			kitchen_drawer = true
+			kitchen_cabinetry = true
+			chair = true
+			light_ceiling_fan = true
+			table = true
+			mail_box = true
+			kitchen_storage_cabinet = true
+			storage_jar = true
+			drawer = true
+			kitchen_sink = true
+			toilet = true
+			crate = true
+			dark_ceiling_fan = true
+			lattice_fence_gate = true
+			bath = true
 
