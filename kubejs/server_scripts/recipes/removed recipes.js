@@ -91,6 +91,13 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'alexscavesdelight:sulfur_cookie' });
     event.remove({ output: 'alexscavesdelight:sulfer_jam' });
     event.remove({ output: 'alexscavesdelight:sweet_puff_jem' });
+    event.remove({ output: 'alexscavesdelight:sweetberry_ice_cream' });
+    event.remove({ output: 'alexscavesdelight:toxic_jem' });
+    event.remove({ output: 'alexscavesdelight:trilocararis_roll' });
+    event.remove({ output: 'alexscavesdelight:tripodfish_roll' });
+    event.remove({ output: 'alexscavesdelight:uranium_pie' });
+    event.remove({ output: 'alexscavesdelight:vanilla_ice_cream' });
+    e
     //event.remove({ output: '' });
     event.remove({ output: 'endersdelight:crawling_sandwich' });
     event.remove({ output: 'endersdelight:crispy_skewer' });

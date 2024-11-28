@@ -47,44 +47,44 @@ ServerEvents.recipes(event => {
     });
     // Pancake Recipe
     event.custom({
-    type: 'farmersdelight:cooking',
-    ingredients: [
+        type: 'farmersdelight:cooking',
+        ingredients: [
         { item: 'minecraft:sugar' },
         { tag: 'forge:milk' },
         { tag: 'forge:grain' },
         { tag: 'forge:eggs' }
     ],
-    result: { item: 'supplementaries:pancake', count: 3 },
-    container: { item: 'minecraft:air' },
-    experience: 5,
-    cookingtime: 100,
-    recipeBookTab: 'misc'
+        result: { item: 'supplementaries:pancake', count: 3 },
+        container: { item: 'minecraft:air' },
+        experience: 5,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
     });
     // Cooked Tentacle Recipe
-event.custom({
-    type: 'farmersdelight:cooking',
-    ingredients: [
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
         { item: 'oceansdelight:tentacles' }
     ],
-    result: { item: 'oceansdelight:baked_tentacle_on_a_stick' },
-    container: { item: 'minecraft:stick' },
-    experience: 15,
-    cookingtime: 200,
-    recipeBookTab: 'misc'
+        result: { item: 'oceansdelight:baked_tentacle_on_a_stick' },
+        container: { item: 'minecraft:stick' },
+        experience: 15,
+        cookingtime: 200,
+        recipeBookTab: 'misc'
     });
     // Elder Guardian Roll Recipe
     event.custom({
-    type: 'farmersdelight:cooking',
-    ingredients: [
+        type: 'farmersdelight:cooking',
+        ingredients: [
         { item: 'oceansdelight:elder_guardian_slice' },
         { item: 'oceansdelight:elder_guardian_slice' },
         { item: 'farmersdelight:rice' }
     ],
-    result: { item: 'oceansdelight:elder_guardian_roll' },
-    container: { item: 'minecraft:air' },
-    experience: 30,
-    cookingtime: 100,
-    recipeBookTab: 'misc'
+        result: { item: 'oceansdelight:elder_guardian_roll' },
+        container: { item: 'minecraft:air' },
+        experience: 30,
+        cookingtime: 100,
+        recipeBookTab: 'misc'
     });
     // Fugu Roll Recipe
     event.custom({
@@ -1356,5 +1356,72 @@ event.custom({
         cookingtime: 60,
         recipeBookTab: 'misc'
     });
-    //Toxic Jem
+    //Toxic Jem Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:toxic_paste' },
+            { item: 'minecraft:sugar' },
+            { item: 'minecraft:sugar' }
+        ],
+        result: { item: 'alexscavesdelight:toxic_jem', count: 5 },
+        container: { item: 'minecraft:glass_bottle' },
+        experience: 20,
+        cookingtime: 200,
+        recipeBookTab: 'drinks'
+    });
+    //Trilocararis Roll Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'alexscaves:cut_cooked_trilocararis' },
+            { item: 'alexscaves:cut_cooked_trilocararis' }
+        ],
+        result: { item: 'alexscavesdelight:trilocararis_roll', count: 2 },
+        container: { item: 'minecraft:air' },
+        experience: 8,
+        cookingtime: 160,
+        recipeBookTab: 'misc'
+    });
+    //Tripodfish Roll Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'farmersdelight:cooked_rice' },
+            { item: 'alexscaves:cut_cooked_tripodfish' },
+            { item: 'alexscaves:cut_cooked_tripodfish' }
+        ],
+        result: { item: 'alexscavesdelight:tripodfish_roll', count: 2 },
+        container: { item: 'minecraft:air' },
+        experience: 8,
+        cookingtime: 160,
+        recipeBookTab: 'misc'
+    });
+    //Uranium Pie Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { tag : 'forge:raw_resources/uranium' },
+            { tag : 'forge:raw_resources/uranium' }
+        ],
+        result: { item: 'alexscavesdelight:uranium_pie' },
+        container: { item: 'farmersdelight:pie_crust' },
+        experience: 10,
+        cookingtime: 180,
+        recipeBookTab: 'misc'
+    });
+    //Vanilla Icecream Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { item: 'alexscaves:vanilla_ice_cream_scoop' },
+            { item: 'minecraft:ice' }
+        ],
+        result: { item: 'alexscavesdelight:vanilla_ice_cream', count: 8 },
+        container: { item: 'minecraft:stick' },
+        experience: 6,
+        cookingtime: 60,
+        recipeBookTab: 'misc'
+    });
 });
