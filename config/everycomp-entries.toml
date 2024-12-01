@@ -386,9 +386,6 @@
 			pewen = true
 			thornwood = true
 
-		[types.wood_type.betterarcheology]
-			rotten = true
-
 	[types.cut_block_type]
 
 		[types.cut_block_type.philipsruins]
@@ -924,18 +921,70 @@
 			stone_tile = true
 			blackstone_tile = true
 
-		[types.cut_block_type.dustrial_decor]
-			cast_iron_brick = true
-			sheet_metal_plating = true
-			sheet_metal_treading = true
-			rusty_sheet_metal_plating = true
-			rusty_sheet_metal_treading = true
-			cinder_brick = true
-			smooth_cardboard = true
+		[types.cut_block_type.immersive_cooking]
+			glazed_tiles = true
+			checkered_tiles = true
+			glazed_checkered_tiles = true
 
-		[types.cut_block_type.betterarcheology]
-			rotten = true
-			cracked_mud_brick = true
+		[types.cut_block_type.immersiveengineering]
+			sheetmetal_copper = true
+			sheetmetal_aluminum = true
+			storage_aluminum = true
+			sheetmetal_lead = true
+			storage_lead = true
+			sheetmetal_silver = true
+			storage_silver = true
+			sheetmetal_nickel = true
+			storage_nickel = true
+			sheetmetal_uranium = true
+			storage_uranium = true
+			sheetmetal_constantan = true
+			storage_constantan = true
+			sheetmetal_electrum = true
+			storage_electrum = true
+			sheetmetal_steel = true
+			storage_steel = true
+			sheetmetal_iron = true
+			sheetmetal_gold = true
+			treated_wood_horizontal = true
+			treated_wood_vertical = true
+			treated_wood_packaged = true
+			sheetmetal_colored_white = true
+			sheetmetal_colored_orange = true
+			sheetmetal_colored_magenta = true
+			sheetmetal_colored_light_blue = true
+			sheetmetal_colored_yellow = true
+			sheetmetal_colored_lime = true
+			sheetmetal_colored_pink = true
+			sheetmetal_colored_gray = true
+			sheetmetal_colored_light_gray = true
+			sheetmetal_colored_cyan = true
+			sheetmetal_colored_purple = true
+			sheetmetal_colored_blue = true
+			sheetmetal_colored_brown = true
+			sheetmetal_colored_green = true
+			sheetmetal_colored_red = true
+			sheetmetal_colored_black = true
+			steel_scaffolding_standard = true
+			alu_scaffolding_standard = true
+			steel_scaffolding_grate_top = true
+			alu_scaffolding_grate_top = true
+			steel_scaffolding_wooden_top = true
+			alu_scaffolding_wooden_top = true
+			cokebrick = true
+			blastbrick = true
+			blastbrick_reinforced = true
+			slag_brick = true
+			clinker_brick = true
+			coke = true
+			hempcrete = true
+			hempcrete_brick = true
+			concrete = true
+			concrete_brick = true
+			concrete_tile = true
+			concrete_leaded = true
+			insulating_glass = true
+			alloybrick = true
 
 #Disables specific entries
 [entries]

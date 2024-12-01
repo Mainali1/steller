@@ -159,3 +159,31 @@
 		#ProjectE-Integration Recipe Mapper for Ars Nouveau Crush Mapper. Required Mods: [ars_nouveau]
 		enabled = true
 
+	[CraftingMapper.ImmersiveEngineeringSawmillMapper]
+		#ProjectE-Integration Recipe Mapper for Immersive Engineering Sawmill Mapper. Required Mods: [immersiveengineering]
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringMixerMapper]
+		#ProjectE-Integration Recipe Mapper for Immersive Engineering Mixer Mapper. Required Mods: [immersiveengineering]
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringMetalPressMapper]
+		#ProjectE-Integration Recipe Mapper for Immersive Engineering Metal Press Mapper. Required Mods: [immersiveengineering]
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringCrusherMapper]
+		#ProjectE-Integration Recipe Mapper for Immersive Engineering Crusher Mapper. Required Mods: [immersiveengineering]
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringCokeOvenMapper]
+		#ProjectE-Integration Recipe Mapper for Immersive Engineering Coke Oven Mapper. Required Mods: [immersiveengineering]
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringBlastFurnaceMapper]
+		#ProjectE-Integration Recipe Mapper for Immersive Engineering Blast Furnace Mapper. Required Mods: [immersiveengineering]
+		enabled = true
+
+	[CraftingMapper.ImmersiveEngineeringAlloyMapper]
+		#ProjectE-Integration Recipe Mapper for Immersive Engineering Alloy Mapper. Required Mods: [immersiveengineering]
+		enabled = true
+

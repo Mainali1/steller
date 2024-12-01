@@ -403,5 +403,373 @@
       "effects": [],
       "nbt": {}
     }
+  ],
+  "vinery:red_grape": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:white_grape": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:cherry": [
+    {
+      "hydration": 1,
+      "saturation": 0.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:savanna_grapes_red": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:savanna_grapes_white": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:taiga_grapes_red": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:taiga_grapes_white": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:jungle_grapes_red": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:jungle_grapes_white": [
+    {
+      "hydration": 2,
+      "saturation": 1.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:red_grapejuice": [
+    {
+      "hydration": 4,
+      "saturation": 2.4,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:white_grapejuice": [
+    {
+      "hydration": 4,
+      "saturation": 2.4,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:red_taiga_grapejuice": [
+    {
+      "hydration": 4,
+      "saturation": 2.8,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:white_taiga_grapejuice": [
+    {
+      "hydration": 4,
+      "saturation": 2.8,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:red_jungle_grapejuice": [
+    {
+      "hydration": 4,
+      "saturation": 2.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:white_jungle_grapejuice": [
+    {
+      "hydration": 4,
+      "saturation": 2.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:apple_juice": [
+    {
+      "hydration": 6,
+      "saturation": 3.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:chorus_wine": [
+    {
+      "hydration": 6,
+      "saturation": 3.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:cherry_wine": [
+    {
+      "hydration": 6,
+      "saturation": 3.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:magnetic_wine": [
+    {
+      "hydration": 6,
+      "saturation": 3.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:noir_wine": [
+    {
+      "hydration": 4,
+      "saturation": 2.4,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:lilitu_wine": [
+    {
+      "hydration": 8,
+      "saturation": 4.4,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:mellohi_wine": [
+    {
+      "hydration": 8,
+      "saturation": 4.2,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:stal_wine": [
+    {
+      "hydration": 6,
+      "saturation": 3.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:strad_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:solaris_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:bolvar_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:aegis_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:clark_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:chenet_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:kelp_cider": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:apple_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:apple_cider": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:jellie_wine": [
+    {
+      "hydration": 10,
+      "saturation": 5.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:red_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:knulp_wine": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:jo_special_mixture": [
+    {
+      "hydration": 10,
+      "saturation": 7.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:cristel_wine": [
+    {
+      "hydration": 8,
+      "saturation": 6.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:creepers_crush": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:villagers_fright": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:glowing_wine": [
+    {
+      "hydration": 8,
+      "saturation": 6.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:mead": [
+    {
+      "hydration": 4,
+      "saturation": 3.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:bottle_mojang_noir": [
+    {
+      "hydration": 6,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "vinery:eiswein": [
+    {
+      "hydration": 7,
+      "saturation": 4.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "minecraft:chorus_fruit": [
+    {
+      "hydration": 3,
+      "saturation": 1.5,
+      "effects": [],
+      "nbt": {}
+    } 
+  ],
+  "quark:ancient_fruit": [
+    {
+      "hydration": 3,
+      "saturation": 1.5,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "minecraft:carrot": [
+    {
+      "hydration": 2,
+      "saturation": 0.5,
+      "effects": [],
+      "nbt": {}
+    }
   ]
 }

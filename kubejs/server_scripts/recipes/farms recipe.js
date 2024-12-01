@@ -1,19 +1,4 @@
 ServerEvents.recipes(event => {
-    // Bison Burger Recipe
-    event.custom({
-        type: 'farmersdelight:cooking',
-        ingredients: [
-            { tag: 'forge:salad_ingredients' },
-            { item: 'farmersdelight:tomato' },
-            { item: 'alexsdelight:bison_patty' },
-            { item: 'minecraft:beetroot' }
-        ],
-        result: { item: 'alexsdelight:bison_burger' },
-        container: { item: 'minecraft:bread' },
-        experience: 20,
-        cookingtime: 300,
-        recipeBookTab: 'misc'
-    });
     // Kangaroo Burger Recipe
     event.custom({
         type: 'farmersdelight:cooking',

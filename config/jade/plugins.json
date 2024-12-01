@@ -54,6 +54,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
