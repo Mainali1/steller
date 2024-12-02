@@ -771,5 +771,14 @@
       "effects": [],
       "nbt": {}
     }
+  ],
+  "alexscavesdelight:hot_chocolate": [
+    {
+      "hydration": 3,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
   ]
+  
 }

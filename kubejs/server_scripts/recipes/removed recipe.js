@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     // Remove by output item
     event.remove({ output: 'minecraft:cake' });
-    event.remove({ output: 'alexsdelight:bison_burger' });
+    event.remove({ output: 'alexsdelight:bison_burger'});
     event.remove({ output: 'alexsmobs:kangaroo_burger' });
     event.remove({ output: 'delightful:cheeseburger' });
     event.remove({ output: 'supplementaries:pancake' });
@@ -73,8 +73,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'alexscavesdelight:toxic_hamburger' });
     event.remove({ output: 'alexscavesdelight:pure_darkness_shake' });
     event.remove({ output: 'alexscavesdelight:magma_jem' });
-    event.remove({ output: 'alexscavesdelight:bioluminescence_jem' });
-    event.remove({ output: 'alexscavesdelight:bioluminescence_pie' });
+    event.remove({ output: 'alexscavesdelight:bioluminesscence_jem' });
+    event.remove({ output: 'alexscavesdelight:bioluminesscence_pie' });
     event.remove({ output: 'alexscavesdelight:acid_pasta' });
     event.remove({ output: 'alexscavesdelight:bioluminescence_custard' });
     event.remove({ output: 'alexscavesdelight:caramel_cookie' });
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'alexscavesdelight:pine_nuts_cookie' });
     event.remove({ output: 'alexscavesdelight:radgill_roll' });
     event.remove({ output: 'alexscavesdelight:sulfur_cookie' });
-    event.remove({ output: 'alexscavesdelight:sulfer_jam' });
+    event.remove({ output: 'alexscavesdelight:sulfur_jam' });
     event.remove({ output: 'alexscavesdelight:sweet_puff_jem' });
     event.remove({ output: 'alexscavesdelight:sweetberry_ice_cream' });
     event.remove({ output: 'alexscavesdelight:toxic_jem' });

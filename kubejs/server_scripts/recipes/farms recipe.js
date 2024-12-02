@@ -1,4 +1,19 @@
 ServerEvents.recipes(event => {
+    //Bison burger Recipe
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            { tag: 'forge:salad_ingredients' },
+            { item: 'farmersdelight:beef_patty' },
+            { item: 'minecraft:beetroot' },
+            { item: 'farmersdelight:tomato' },
+        ],
+        result: { item: 'alexsdelight:bison_burger' },
+        container: { item: 'minecraft:bread' },
+        experience: 20,
+        cookingtime: 500,
+        recipeBookTab: 'misc'
+    });
     // Kangaroo Burger Recipe
     event.custom({
         type: 'farmersdelight:cooking',
@@ -34,11 +49,11 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
-        { item: 'minecraft:sugar' },
-        { tag: 'forge:milk' },
-        { tag: 'forge:grain' },
-        { tag: 'forge:eggs' }
-    ],
+            { item: 'minecraft:sugar' },
+            { tag: 'forge:milk' },
+            { tag: 'forge:grain' },
+            { tag: 'forge:eggs' }
+        ],
         result: { item: 'supplementaries:pancake', count: 3 },
         container: { item: 'minecraft:air' },
         experience: 5,
@@ -49,8 +64,8 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
-        { item: 'oceansdelight:tentacles' }
-    ],
+            { item: 'oceansdelight:tentacles' }
+        ],
         result: { item: 'oceansdelight:baked_tentacle_on_a_stick' },
         container: { item: 'minecraft:stick' },
         experience: 15,
@@ -61,10 +76,10 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
-        { item: 'oceansdelight:elder_guardian_slice' },
-        { item: 'oceansdelight:elder_guardian_slice' },
-        { item: 'farmersdelight:rice' }
-    ],
+            { item: 'oceansdelight:elder_guardian_slice' },
+            { item: 'oceansdelight:elder_guardian_slice' },
+            { item: 'farmersdelight:rice' }
+        ],
         result: { item: 'oceansdelight:elder_guardian_roll' },
         container: { item: 'minecraft:air' },
         experience: 30,
@@ -664,21 +679,6 @@ ServerEvents.recipes(event => {
         cookingtime: 500,
         recipeBookTab: 'meals'
     });
-    // Bacon and Eggs Recipe
-    event.custom({
-    type: 'farmersdelight:cooking',
-    ingredients: [
-        { item: 'farmersdelight:cooked_bacon' },
-        { item: 'farmersdelight:cooked_bacon' },
-        { item: 'farmersdelight:fried_egg' },
-        { item: 'farmersdelight:fried_egg' }
-    ],
-    result: { item: 'farmersdelight:bacon_and_eggs' },
-    container: { item: 'minecraft:bowl' },
-    experience: 18,
-    cookingtime: 500,
-    recipeBookTab: 'meals'
-    });
     // Kelp Roll Recipe
     event.custom({
         type: 'farmersdelight:cooking',
@@ -975,7 +975,7 @@ ServerEvents.recipes(event => {
             { tag: 'forge:milks' }
         ],
         result: { item: 'delightful:matcha_milkshake' },
-        container: { item: 'minecraft:glass_bottle'},
+        container: { item: 'minecraft:glass_bottle' },
         experience: 5,
         cookingtime: 60,
         recipeBookTab: 'drinks'
@@ -988,7 +988,7 @@ ServerEvents.recipes(event => {
             { tag: 'forge:milks' }
         ],
         result: { item: 'delightful:salmonberry_milkshake' },
-        container: { item: 'minecraft:glass_bottle'},
+        container: { item: 'minecraft:glass_bottle' },
         experience: 5,
         cookingtime: 60,
         recipeBookTab: 'drinks'
@@ -998,11 +998,11 @@ ServerEvents.recipes(event => {
         type: 'farmersdelight:cooking',
         ingredients: [
             { item: 'farmersdelight:honey_cookie' },
-            { tag: 'bakery:chocolate'},
+            { tag: 'bakery:chocolate' },
             { item: 'delightful:cooked_marshmellow_stick' },
             { item: 'farmersdelight:honey_cookie' },
         ],
-        result: {item: 'delightful:smore'},
+        result: { item: 'delightful:smore' },
         container: { item: 'minecraft:air' },
         experience: 7,
         cookingtime: 140,
@@ -1058,7 +1058,7 @@ ServerEvents.recipes(event => {
             { item: 'alexscaves:polymer_plate' }
         ],
         result: { item: 'alexscavesdelight:toxic_hamburger' },
-        counter: {item: 'minecraft:air' },
+        counter: { item: 'minecraft:air' },
         experience: 10,
         cookingtime: 300,
         recipeBookTab: 'misc'
@@ -1077,7 +1077,7 @@ ServerEvents.recipes(event => {
         experience: 50,
         cookingtime: 440,
         recipeBookTab: 'drinks'
-    });   
+    });
     //Magma Jem Recipe
     event.custom({
         type: 'farmersdelight:cooking',
@@ -1099,7 +1099,7 @@ ServerEvents.recipes(event => {
         ingredients: [
             { item: 'alexscaves:bioluminesscence' },
             { item: 'alexscaves:bioluminesscence' },
-            { item: 'minecraft:suger' },
+            { item: 'minecraft:sugar' },
         ],
         result: { item: 'alexscavesdelight:bioluminesscence_jem', count: 5 },
         container: { item: 'minecraft:glass_bottle' },
@@ -1107,7 +1107,7 @@ ServerEvents.recipes(event => {
         cookingtime: 300,
         recipeBookTab: 'drinks'
     });
-    //Bioluminescence Jem Recipe
+    //Bioluminescence pie Recipe
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
@@ -1279,8 +1279,8 @@ ServerEvents.recipes(event => {
         type: 'farmersdelight:cooking',
         ingredients: [
             { item: 'farmersdelight:cooked_rice' },
-            { item: 'alexscaves:cut_cooked_radgill' },
-            { item: 'alexscaves:cut_cooked_radgill' }
+            { item: 'alexscavesdelight:cut_cooked_radgill' },
+            { item: 'alexscavesdelight:cut_cooked_radgill' }
         ],
         result: { item: 'alexscavesdelight:radgill_roll', count: 2 },
         container: { item: 'minecraft:air' },
@@ -1331,7 +1331,8 @@ ServerEvents.recipes(event => {
     });
     //Sweetberry Ice cream
     event.custom({
-        type: [
+        type: 'farmersdelight:cooking',
+        ingredients: [
             { item: 'alexscaves:sweetberry_ice_cream_scoop' },
             { item: 'minecraft:ice' }
         ],
@@ -1360,8 +1361,8 @@ ServerEvents.recipes(event => {
         type: 'farmersdelight:cooking',
         ingredients: [
             { item: 'farmersdelight:cooked_rice' },
-            { item: 'alexscaves:cut_cooked_trilocararis' },
-            { item: 'alexscaves:cut_cooked_trilocararis' }
+            { item: 'alexscavesdelight:cut_cooked_trilocararis' },
+            { item: 'alexscavesdelight:cut_cooked_trilocararis' }
         ],
         result: { item: 'alexscavesdelight:trilocararis_roll', count: 2 },
         container: { item: 'minecraft:air' },
@@ -1374,8 +1375,8 @@ ServerEvents.recipes(event => {
         type: 'farmersdelight:cooking',
         ingredients: [
             { item: 'farmersdelight:cooked_rice' },
-            { item: 'alexscaves:cut_cooked_tripodfish' },
-            { item: 'alexscaves:cut_cooked_tripodfish' }
+            { item: 'alexscavesdelight:cut_cooked_tripodfish' },
+            { item: 'alexscavesdelight:cut_cooked_tripodfish' }
         ],
         result: { item: 'alexscavesdelight:tripodfish_roll', count: 2 },
         container: { item: 'minecraft:air' },
@@ -1387,8 +1388,8 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
-            { tag : 'forge:raw_resources/uranium' },
-            { tag : 'forge:raw_resources/uranium' }
+            { item: 'immersiveengineering:raw_uranium' },
+            { item: 'immersiveengineering:raw_uranium' }
         ],
         result: { item: 'alexscavesdelight:uranium_pie' },
         container: { item: 'farmersdelight:pie_crust' },
@@ -1409,4 +1410,5 @@ ServerEvents.recipes(event => {
         cookingtime: 60,
         recipeBookTab: 'misc'
     });
+    
 });

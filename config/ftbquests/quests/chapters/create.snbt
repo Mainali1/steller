@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6646FB00F2455250"
+	autofocus_id: "73223B7896D0F888"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "create"
@@ -22,9 +22,9 @@
 				}
 				{
 					auto: "enabled"
-					id: "5EFF8ACBC2531FD6"
-					type: "xp"
-					xp: 100
+					id: "62B087D6899B8DA5"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -35,7 +35,7 @@
 				task_screen_only: true
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -93,7 +93,7 @@
 				}
 			]
 			title: "Zinc Armor"
-			x: -6.0d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -137,7 +137,7 @@
 				}
 			]
 			title: "Gearboxes"
-			x: -4.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -171,7 +171,7 @@
 				}
 			]
 			title: "Cranks"
-			x: -7.5d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -205,7 +205,7 @@
 				}
 			]
 			title: "Cogwheels "
-			x: -6.0d
+			x: -5.5d
 			y: -4.5d
 		}
 		{
@@ -221,7 +221,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -255,7 +255,7 @@
 				}
 			]
 			title: "Power machine"
-			x: -5.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -287,14 +287,9 @@
 					item: "create:schematic_and_quill"
 					type: "item"
 				}
-				{
-					id: "7D2775AC6D0ADEF1"
-					item: "create_pattern_schematics:empty_pattern_schematic"
-					type: "item"
-				}
 			]
 			title: "Schematics"
-			x: -7.0d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -323,7 +318,7 @@
 				}
 			]
 			title: "Useful Machine"
-			x: -7.0d
+			x: -6.5d
 			y: -2.0d
 		}
 		{
@@ -334,15 +329,16 @@
 					command: "/gamestage add @s production_machine"
 					console: true
 					elevate_perms: true
-					exclude_from_claim_all: true
 					id: "24C750E2FC897F29"
 					silent: true
+					team_reward: true
 					type: "command"
 				}
 				{
-					id: "5CAA187D37894C55"
-					type: "xp"
-					xp: 200
+					auto: "enabled"
+					id: "1744FB947362D2F8"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			tasks: [{
@@ -711,13 +707,1081 @@
 			y: -2.0d
 		}
 		{
-			id: "772B56CF479CF751"
+			id: "0232F3B0B211746E"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7EDB1C8B51A2040C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s liquid_machine"
+					console: true
+					elevate_perms: true
+					id: "55ED90FFEC083195"
+					silent: true
+					type: "command"
+				}
+			]
 			tasks: [{
-				id: "192D3F58B11B01D4"
-				type: "custom"
+				count: 300L
+				id: "0B443937E03D4AFD"
+				item: { Count: 400, id: "create:copper_sheet" }
+				type: "item"
 			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "259D49BBD890214A"
+			rewards: [{
+				id: "5EA4F43C78F2C10C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5584918A76C1F2D2"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "2D5788F879651D04"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "4F233A88C6E8AB75"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "6AC75611C79E54A0"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			title: "Pipes"
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "18B7759825A4FA27"
+			rewards: [{
+				id: "3181F3CE65C5C7E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4DB33B6F355014A6"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+				{
+					id: "4E0F5F91CDF267E1"
+					item: "create:item_drain"
+					type: "item"
+				}
+				{
+					id: "2F054DD64F7A13D1"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "05D2EA907099880F"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+				{
+					id: "6F9789CB0B8881FE"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Machines"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "1984E0C7E9DB951E"
+			rewards: [{
+				id: "10D9861F17F2A20C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "429B65C01E3DD920"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "6EA738138F516360"
+					item: "create_connected:fluid_vessel"
+					type: "item"
+				}
+			]
+			title: "Liquid Storage"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "7D05C88753454822"
+			rewards: [{
+				id: "53709FFEA35CEBF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "117A9EDD9CDFC102"
+					item: "create:analog_lever"
+					type: "item"
+				}
+				{
+					id: "1C9533A3B142FEDE"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "4A454394FB4D0547"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "2024B55DE627C808"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "3D31EA3516FED4B8"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+			]
+			title: "Redstone "
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "3892CD43C21FCEC9"
+			rewards: [{
+				id: "5DDC4EA6F1FCAE18"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "794E5A98B011B1CA"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "695F07BD4A67F9CB"
+					item: "create:steam_whistle"
+					type: "item"
+				}
+			]
+			title: "Engines"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "393EF02F2A1251ED"
+			rewards: [{
+				id: "7BA6BD76E37E6E6C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3AEE1DEC21634B45"
+					item: "create:display_board"
+					type: "item"
+				}
+				{
+					id: "20FFEE563D37D541"
+					item: "create:nixie_tube"
+					type: "item"
+				}
+			]
+			title: "Display Machines"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "6D91AEE6BA691036"
+			rewards: [{
+				id: "4A433CC2B32BF9E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2824895DCEB6E02D"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C2C11124E1CE82C"
+					item: "create_sa:copper_magnet"
+					type: "item"
+				}
+				{
+					id: "6C0FBA5FCB32A7EE"
+					item: {
+						Count: 1
+						id: "create_sa:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5612E8381F949229"
+					item: {
+						Count: 1
+						id: "create_sa:copper_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12B1EA57D02ED78F"
+					item: {
+						Count: 1
+						id: "create_sa:copper_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B9B8EF74C2BE1A2"
+					item: {
+						Count: 1
+						id: "create_sa:copper_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F93F40D3B6B687D"
+					item: {
+						Count: 1
+						id: "create_sa:copper_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "269BF0229E3C63CC"
+					item: {
+						Count: 1
+						id: "create_sa:copper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tools and Gadgets"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0232F3B0B211746E"]
+			id: "5AE78F288B261D19"
+			rewards: [{
+				id: "3968D1EA4A48DCA4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6B40A34137492325"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					id: "7F1849BD5E1A980A"
+					item: "create:copper_door"
+					type: "item"
+				}
+			]
+			title: "Copper building"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "194FB859CEE5C102"
+			rewards: [
+				{
+					id: "4DD8FD28614C1575"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s brass_machine"
+					console: true
+					elevate_perms: true
+					id: "14FD693B96D58755"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				count: 400L
+				id: "24E1A4DDAA2AE565"
+				item: { Count: 300, id: "create:brass_sheet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "01D458ACDF21FA09"
+			rewards: [{
+				id: "19CC8C514DD31236"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "50885FE5A0651933"
+					item: "create_connected:brass_gearbox"
+					type: "item"
+				}
+				{
+					id: "18A1570C7A2EC9FA"
+					item: "create_connected:vertical_brass_gearbox"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "66367566CA135F5F"
+			rewards: [{
+				id: "265FDD56586ED0E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4780566B718B1281"
+					item: "create_connected:inventory_access_port"
+					type: "item"
+				}
+				{
+					id: "78F577CEC9975BAA"
+					item: "create_connected:inventory_bridge"
+					type: "item"
+				}
+				{
+					id: "41936BE70A8CF8E7"
+					item: "create_connected:sequenced_pulse_generator"
+					type: "item"
+				}
+				{
+					id: "59CD2502DB9496DD"
+					item: "create_connected:linked_transmitter"
+					type: "item"
+				}
+				{
+					id: "02C251CBC94A2D0A"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "21821A361CB63774"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					id: "25C7E0C93D934383"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					id: "7FF9E412791814A4"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					id: "10DDD2616E46A868"
+					item: "create:peculiar_bell"
+					type: "item"
+				}
+			]
+			title: "Redstone"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "11F84BA131D12FAA"
+			rewards: [{
+				id: "78FFCA2C5DB17FD2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "57EC268383CA5DDF"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "4F36363DF09E04AA"
+					item: "create_connected:fan_smoking_catalyst"
+					type: "item"
+				}
+				{
+					id: "7BBF35A9C5DA9A29"
+					item: "create_connected:fan_splashing_catalyst"
+					type: "item"
+				}
+				{
+					id: "1B39905694012F5A"
+					item: "create_connected:fan_haunting_catalyst"
+					type: "item"
+				}
+				{
+					id: "77AB327D1BEF4A14"
+					item: "create_connected:fan_seething_catalyst"
+					type: "item"
+				}
+				{
+					id: "5EE79B7C4B59A91E"
+					item: "create_connected:fan_freezing_catalyst"
+					type: "item"
+				}
+				{
+					id: "2847048EDEBC9523"
+					item: "create_connected:fan_sanding_catalyst"
+					type: "item"
+				}
+				{
+					id: "6598DD522EEEA31C"
+					item: "create_dd:industrial_fan"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "4234CAF95A5F2331"
+			rewards: [{
+				id: "6AAB22506C9E6036"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "44E0BD201CE81D6D"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "14AE9E33891AA452"
+					item: "create:rope_pulley"
+					type: "item"
+				}
+				{
+					id: "2B5EF1DF9BFA001F"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "2AACDF3EBC1F8B03"
+					item: "create:flywheel"
+					type: "item"
+				}
+				{
+					id: "6973847D89140DBC"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+				{
+					id: "2E7433E4A3CEAFF2"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "6FFAF0848112EE54"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "7C3A4678EE679D9B"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "4F672A8811E25266"
+					item: "create_dd:hydraulic_press"
+					type: "item"
+				}
+				{
+					id: "307AA73EB75A2CA7"
+					item: "create_dd:furnace_engine"
+					type: "item"
+				}
+			]
+			title: "Factory Machine"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "563CA40AABEF988E"
+			rewards: [{
+				id: "4917E9D92DFD41F2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "41FF073E104033FC"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "3D173AEFFF303B95"
+					item: "create:brass_door"
+					type: "item"
+				}
+				{
+					id: "65B4765280601771"
+					item: "create_dd:bore_block"
+					type: "item"
+				}
+			]
+			title: "Building Blocks"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "5BB6EE8E2F7245D9"
+			rewards: [{
+				id: "69789B7E9409E6F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0C37E43C0C1E1836"
+					item: {
+						Count: 1
+						id: "create_sa:brass_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41BCEA241406B45F"
+					item: {
+						Count: 1
+						id: "create_sa:brass_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C4A38B7CB615D6B"
+					item: {
+						Count: 1
+						id: "create_sa:brass_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32900342789D2701"
+					item: {
+						Count: 1
+						id: "create_sa:brass_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6074A7D58CD19B11"
+					item: {
+						Count: 1
+						id: "create_sa:brass_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B3C4DD813E507DF"
+					item: {
+						Count: 1
+						id: "create_sa:brass_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "615CB8BF2BA7AD87"
+					item: {
+						Count: 1
+						id: "create_sa:brass_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30F79CF0A6437A19"
+					item: {
+						Count: 1
+						id: "create_sa:brass_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Brass Armor and Tools"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "0EDE1BD63E064DDD"
+			rewards: [{
+				id: "41E937305682AC39"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2398C34F599354AA"
+					item: {
+						Count: 1
+						id: "create_sa:brass_jetpack_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "755808A40B603B00"
+					item: {
+						Count: 1
+						id: "create_sa:andesite_jetpack_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7350889FF9FEFA05"
+					item: {
+						Count: 1
+						id: "create_sa:brass_exoskeleton_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1CCC4B6A6D3E51D7"
+					item: {
+						Count: 1
+						id: "create_sa:andesite_exoskeleton_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6F7640F6F91934EB"
+					item: {
+						Count: 1
+						id: "create_sa:copper_exoskeleton_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Jetpack and Exoskeleton"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "3BD8BB24CBBE79ED"
+			rewards: [{
+				id: "75F13734C28D7C0F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3259F9CC915ECBA5"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63A1494238EC99AA"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DC03D4D6C2A8674"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10489568DC723CD9"
+					item: {
+						Count: 1
+						id: "create_sa:blazing_cleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blaze Tools"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "1DD140C498A580F4"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "57101595DCE239FF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add @s mobile_machine"
+					console: true
+					elevate_perms: true
+					id: "44090DAFCA0DB6BC"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				count: 50L
+				id: "405CC0CD79E65DED"
+				item: "create_sa:brass_cube"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "1F94D2482D3B4791"
+			rewards: [{
+				id: "07678D31D0F74C24"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5F822BF7A534DB30"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "57093D0338342BAF"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "1D6A308114C574E1"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "6ED4645ED21BD0FA"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "0C270E13B92AC173"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			title: "Trains"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "7BF9E1D3834F3B67"
+			rewards: [{
+				id: "374BAFF691EECD23"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "76A2B8B8CACDE6B7"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					id: "5824C34B223CC7F5"
+					item: "create:secondary_linear_chassis"
+					type: "item"
+				}
+				{
+					id: "785DF565689CE5C6"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+			]
+			title: "Chassies"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "561C26943354C7D4"
+			rewards: [{
+				id: "3E2390B40209398F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F942D8BB88403D4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:tracks"
+					}
+				}
+				title: "Any #create:tracks"
+				type: "item"
+			}]
+			title: "Tracks"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "01156A075F474F59"
+			rewards: [{
+				id: "42C61D57A401AB04"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5FBC4EE6D20728A6"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "42BA49EB0D6BB41F"
+					item: "create:controller_rail"
+					type: "item"
+				}
+			]
+			title: "Cart Work"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "0F2E9C889B91CFBF"
+			rewards: [{
+				id: "66F9AD5FB47990E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7D17E6FBE592D405"
+					item: "create:contraption_controls"
+					type: "item"
+				}
+				{
+					id: "6FC1DA381707DC1D"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+				{
+					id: "0D230A3B1ECF39B6"
+					item: "create:sticker"
+					type: "item"
+				}
+				{
+					id: "6495CA9CE98CA253"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+				{
+					id: "64AB65300D790736"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+			]
+			title: "Contraption Machines"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "3437157A30548E36"
+			rewards: [{
+				id: "2B121A2D5B22A530"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "37908AF7144C79A3"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "0502CFFD72E15EC3"
+					item: "create:train_door"
+					type: "item"
+				}
+			]
+			title: "Building Blocks"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "329A15E5EC46D844"
+			rewards: [{
+				id: "354CAAC552A8A9B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3E974E649FE0EF5C"
+					item: "vs_clockwork:flap_bearing"
+					type: "item"
+				}
+				{
+					id: "31B1937B7EB6BDCE"
+					item: "vs_clockwork:phys_bearing"
+					type: "item"
+				}
+				{
+					id: "007A02BA92B4087D"
+					item: "vs_clockwork:propeller_bearing"
+					type: "item"
+				}
+				{
+					id: "2666A1C5EB856CEE"
+					item: "vs_clockwork:wing"
+					type: "item"
+				}
+			]
+			title: "Physics Machines"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DD140C498A580F4"]
+			id: "1D9109026B957D41"
+			rewards: [{
+				id: "71A39E051B48BC29"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "291F4B0A5B5463EE"
+					item: "vs_clockwork:gyro"
+					type: "item"
+				}
+				{
+					id: "6FE91A5F313C8126"
+					item: "vs_clockwork:alt_meter"
+					type: "item"
+				}
+				{
+					id: "285516D72C018B65"
+					item: "vs_clockwork:redstone_resistor"
+					type: "item"
+				}
+			]
+			title: "Redstone"
+			x: -4.0d
+			y: 1.0d
 		}
 	]
 	title: "Create"
