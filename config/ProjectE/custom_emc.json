@@ -1,0 +1,544 @@
+{
+  "entries": [
+    {
+      "item": "villagertools:restock",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:emerald",
+      "emc": 860
+    },
+    {
+      "item": "minecraft:mushroom_stew",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit_stew",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot_soup",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bread",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_porkchop",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_cod",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_salmon",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cake",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cookie",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_chicken",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:baked_potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cooked_rabbit",
+      "emc": 0
+    },
+    {
+      "item": "oceansdelight:fugu_roll",
+      "emc": 0
+    },
+    {
+      "item": "oceansdelight:braised_sea_pickle",
+      "emc": 0
+    },
+    {
+      "item": "oceansdelight:cooked_stuffed_cod",
+      "emc": 0
+    },
+    {
+      "item": "oceansdelight:honey_fried_kelp",
+      "emc": 0
+    },
+    {
+      "item": "oceansdelight:seagrass_salad",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:beef_patty",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cooked_chicken_cuts",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cooked_bacon",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cooked_cod_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cooked_salmon_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cooked_mutton_chops",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:smoked_ham",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:apple_pie",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:chocolate_pie",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cake_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:apple_pie_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:chocolate_pie_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cookie",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:honey_cookie",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:melon_popsicle",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:glow_berry_custard",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:fruit_salad",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:mixed_salad",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:nether_salad",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:barbecue_stick",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:egg_sandwich",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:chicken_sandwich",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:hamburger",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:bacon_sandwich",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:mutton_wrap",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:dumplings",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:stuffed_potato",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cabbage_rolls",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:salmon_roll",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cod_roll",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:kelp_roll",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:kelp_roll_slice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:cooked_rice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:bone_broth",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:beef_stew",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:chicken_soup",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:vegetable_soup",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:fish_stew",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:fried_rice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:pumpkin_soup",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:baked_cod_stew",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:noodle_soup",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:bacon_and_eggs",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:pasta_with_mutton_chop",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:mushroom_rice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:roasted_mutton_chops",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:vegetable_noodles",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:steak_and_potatoes",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:ratatouille",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:squid_ink_pasta",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:grilled_salmon",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:roast_chicken_block",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin_block",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:honey_glazed_ham_block",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:shepherds_pie_block",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:rice_roll_medley_block",
+      "emc": 0
+    },
+    {
+      "item": "endersdelight:chorus_juice",
+      "emc": 0
+    },
+    {
+      "item": "farmersdelight:horse_feed",
+      "emc": 0
+    },
+    {
+      "item": "delightful:pumpkin_pie_slice",
+      "emc": 0
+    },
+    {
+      "item": "delightful:sinigang",
+      "emc": 0
+    },
+    {
+      "item": "delightful:prickly_pear_juice",
+      "emc": 0
+    },
+    {
+      "item": "delightful:ender_nectar",
+      "emc": 0
+    },
+    {
+      "item": "delightful:cheeseburger",
+      "emc": 0
+    },
+    {
+      "item": "delightful:deluxe_cheeseburger",
+      "emc": 0
+    },
+    {
+      "item": "delightful:smore",
+      "emc": 0
+    },
+    {
+      "item": "quarkdelight:cavern_explorer_stew",
+      "emc": 0
+    },
+    {
+      "item": "quarkdelight:lush_moss_salad",
+      "emc": 0
+    },
+    {
+      "item": "quarkdelight:miso_with_bamboo_sprouts",
+      "emc": 0
+    },
+    {
+      "item": "quarkdelight:cloud_latte",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lava_bucket",
+      "emc": 890
+    },
+    {
+      "item": "minecraft:water_bucket{Purity:-1}",
+      "emc": 800
+    },
+    {
+      "item": "projecte:watch_of_flowing_time",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:quartz",
+      "emc": 150
+    },
+    {
+      "item": "biggerreactors:uranium_ingot",
+      "emc": 10000
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "emc": 57344
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 180112
+    },
+    {
+      "item": "projecte:klein_star_ein",
+      "emc": 17384
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 10987
+    },
+    {
+      "item": "create_crush_everything:netherite_shard",
+      "emc": 28672
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "emc": 500
+    },
+    {
+      "item": "northstar:polished_amethyst",
+      "emc": 0
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 180372
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "emc": 0
+    },
+    {
+      "item": "create:experience_nugget",
+      "emc": 0
+    },
+    {
+      "item": "patchouli:guide_book{\"patchouli:book\":\"patchouli:guidebook\"}",
+      "emc": 10
+    },
+    {
+      "item": "delightful:green_tea_leaf{\"fiahi:temperature\":0,\"spoiled:SpoilMaxTime\":40,\"spoiled:SpoilTimer\":14}",
+      "emc": 100
+    },
+    {
+      "item": "delightful:green_tea_leaf{\"fiahi:temperature\":0,\"spoiled:SpoilMaxTime\":40,\"spoiled:SpoilTimer\":18}",
+      "emc": 130
+    },
+    {
+      "item": "minecraft:cobblestone_slab",
+      "emc": 1
+    },
+    {
+      "item": "quark:cobblestone_vertical_slab",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:smooth_stone_slab",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "emc": 15
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "emc": 29
+    },
+    {
+      "item": "patchouli:guide_book{\"patchouli:book\":\"simplyswords:runic_grimoire\"}",
+      "emc": 150
+    },
+    {
+      "item": "alexscaves:cave_book",
+      "emc": 150
+    },
+    {
+      "item": "delightful:green_tea_leaf{\"fiahi:temperature\":0,\"spoiled:SpoilMaxTime\":40,\"spoiled:SpoilTimer\":5}",
+      "emc": 180
+    },
+    {
+      "item": "delightful:green_tea_leaf{\"fiahi:temperature\":0,\"spoiled:SpoilMaxTime\":40,\"spoiled:SpoilTimer\":0}",
+      "emc": 120
+    },
+    {
+      "item": "alexsmobs:animal_dictionary",
+      "emc": 150
+    },
+    {
+      "item": "legendarysurvivaloverhaul:purified_water_bottle",
+      "emc": 0
+    },
+    {
+      "item": "delightful:green_tea_leaf",
+      "emc": 180
+    },
+    {
+      "item": "numismatics:spur",
+      "emc": 1
+    },
+    {
+      "item": "numismatics:bevel",
+      "emc": 8
+    },
+    {
+      "item": "numismatics:sprocket",
+      "emc": 16
+    },
+    {
+      "item": "numismatics:cog",
+      "emc": 64
+    },
+    {
+      "item": "numismatics:crown",
+      "emc": 512
+    },
+    {
+      "item": "numismatics:sun",
+      "emc": 4096
+    },
+    {
+      "item": "biggerreactors:blutonium_ingot",
+      "emc": 1000
+    },
+    {
+      "item": "biggerreactors:ludicrite_ingot",
+      "emc": 1500
+    },
+    {
+      "item": "tfmg:lithium_ingot",
+      "emc": 9000
+    },
+    {
+      "item": "northstar:tungsten_ingot",
+      "emc": 7500
+    },
+    {
+      "item": "thermal:apatite",
+      "emc": 500
+    },
+    {
+      "item": "thermal:cinnabar",
+      "emc": 700
+    },
+    {
+      "item": "thermal:niter",
+      "emc": 620
+    }
+  ]
+}

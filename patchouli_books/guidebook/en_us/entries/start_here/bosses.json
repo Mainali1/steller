@@ -1,0 +1,150 @@
+{
+    "name": "Bosses",
+    "icon": "minecraft:dragon_head",
+    "category": "patchouli:start_here",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "In this world there are diffrent types of powerful monsters with diffrent cheracteristic and ablities garding their structucture and give valuable loot once defeated . Defeat them to get emc here are all the bosses:"
+        },
+
+        {
+            "type": "entity",
+            "title": "Ender Dragon",
+            "offset": -7,
+            "entity": "minecraft:ender_dragon",
+            "text": "Ruler of the end which can be found at the end island when first entering  the end. After defeat it can give youdragon egg."
+        },
+        
+        {
+            "type": "entity",
+            "title": "Wither",
+            "scale": 0.7,
+            "entity": "minecraft:wither",
+            "text": "The wither can be summoned with 3 soul sand and weither head. It can fly and wither you. It will drop a neither star on death."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "minecraft:warden",
+            "text": "It can be found in the deep darkness. It is tanky and follows sound and can drop its body parts when defeated"
+        },
+
+        {
+
+            "type": "entity",
+            "scale": 0.5,
+            "entity": "cataclysm:maledictus",
+            "text": "It is a boss which can be tracked using eye of curse. When defeated it can drop 3-4 cursium ingots."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "cataclysm:ignis",
+            "text": "It is a boss which can be tracked using the eye of flame. When defeated it can drop a ignitium ingot."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "cataclysm:netherite_monstrosity",
+            "text": "It is a boss which can be tracked using the eye of monstrous. When defeated it can drop a infernal forge."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "cataclysm:the_harbinger",
+            "text": "It is a boss which can be tracked using the eye of mecha. When defeated it can drop a block of witherite."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "cataclysm:ender_guardian",
+            "text": "It is a boss which can be tracked using the eye of void. When defeated it can drop guentlet of guard."
+        },
+        
+        {
+            "type": "entity",
+            "scale": 0.3,
+            "entity": "cataclysm:the_leviathan",
+            "text": "It is a boss which can be tracked using the eye of abyss. When defeated it can drop tidal claws and the abyssal egg."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.4,
+            "entity": "cataclysm:ancient_remnant",
+            "text": "It is a boss which can be tracked using the eye of desert. When defeated it can drop a block of ancient metal."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "bosses_of_mass_destruction:gauntlet",
+            "text": "It is a boss which can be found in the world. When defeated it drops blazing eye."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "bosses_of_mass_destruction:lich",
+            "text": "It is a boss which can be found in the world. When defeated it drops ancient anima."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "offset": -4,
+            "entity": "bosses_of_mass_destruction:obsidilith",
+            "text": "It is a boss which can be found in the world. When defeated it drops obsidian heart."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "offset": -7,
+            "entity": "bosses_of_mass_destruction:void_blossom",
+            "text": "It is a boss which can be found in the world. When defeated it drops void thorn."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.4,
+            "entity": "minecraft:elder_guardian",
+            "text": "It is a boss which can be found in ocean monoments. When defeated it drops prismerine as well as sponge."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "mowziesmobs:ferrous_wroughtnaut",
+            "text": "It is a boss which can be found  underground in a structure. When defeated it drops its axe or helmet."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "mowziesmobs:umvuthi",
+            "text": "It is a boss which can be found in  throne in savanna groves. when killed it drops its mask."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.7,
+            "entity": "mowziesmobs:frostmaw",
+            "text": "It is a boss which can be found rarely in snowy areas. When defeated it drops ice crystal."
+        },
+
+        {
+            "type": "entity",
+            "scale": 0.5,
+            "entity": "alexsmobs:farseer",
+            "text": "Farseer is a unique boss which can only be found in the far end of the world. it is incrediblely hard to get to and kill. when defeated "
+        }
+    ]
+}

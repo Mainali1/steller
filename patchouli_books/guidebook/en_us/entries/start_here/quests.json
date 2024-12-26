@@ -1,0 +1,49 @@
+{
+    "name": "Quests",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:start_here",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Quests are predefined task lists that You  can complete to earn rewards. They can be simple or complex, and can involve multiple tasks or even multiple characters. Here are some examples of quests you could do:"
+        },
+
+        {
+            "type": "text",
+            "title": "Crafting",
+            "text": "In these quests you have to craft the given importent blocks which help you throughout the time to get some xp rewards. The quest only triggers when you craft them insted of finding them. When completed they give you xp as reward "
+        },
+
+        {
+            "type": "text",
+            "title": "Exploring",
+            "text": "In these quests you have to explore the world and find the structures or do the specific task. Doing so will reward you with xp and items.These tasks and structures can be found in all 3 dimensions, Overworld, Nether and End. Some may even contain loot and some maybe boss arenea but most are filled with traps and puzzles."
+        },
+
+        {
+            "type": "text",
+            "title": "Boss Fight",
+            "text": "In these quests you have to defeat the boss and collect their loot.The rewards will be given only when the boss is defeated. Which contains millions of emc huge number of xp and a random legendery reward which may contain relics or legendery wepons."
+        },
+        
+        {
+            "type":"text",
+            "title":"Monster Hunting",
+            "text":"In these quests you need to defeat the monsters shown certain number of times to recive certain number of emc these monsters are not very powerful but you need to defeat a lot of them to get the reward. These monsters can be found in all 3 dimensions, Overworld, Nether and End."
+        },
+
+        {
+            "type": "text",
+            "title": "Create",
+            "text": "In this quest which can only be done after you unlock create after you do a certain task, you need to craft certain items from the create company. Crafting which gives you exp These items can be used to craft other items or to unlock certain features in the game."
+        },
+
+        {
+            "type": "text",
+            "title": "Thermal",
+            "text": "These quest are crafting type of quest for machines of the Tinkers company which will only unlock after you do a certain task. The machines listed there can be very helpful in processing ores and items as well as for energy usage."
+        }
+
+        
+    ]
+}

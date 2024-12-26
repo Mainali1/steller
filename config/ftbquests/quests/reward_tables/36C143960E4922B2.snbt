@@ -1,0 +1,30 @@
+{
+	icon: "minecraft:chest"
+	id: "36C143960E4922B2"
+	loot_size: 1
+	order_index: 0
+	rewards: [{
+		item: {
+			Count: 1
+			id: "create:schematic"
+			tag: {
+				Anchor: {
+					X: 0
+					Y: 0
+					Z: 0
+				}
+				Bounds: [
+					19
+					14
+					29
+				]
+				Deployed: 0b
+				File: "earlygame workshop.nbt"
+				Mirror: "NONE"
+				Owner: "padviper"
+				Rotation: "NONE"
+			}
+		}
+	}]
+	title: "Early game workshop"
+}

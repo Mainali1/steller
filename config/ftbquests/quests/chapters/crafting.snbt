@@ -1,0 +1,325 @@
+{
+	autofocus_id: "4526A684C2203CB3"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "crafting"
+	group: ""
+	id: "72E533D571B209DD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The &4crafting table&r is the most essential block in your journey. It's very easy to build but incredibly useful, as it's used to craft almost anything in this world—from weapons and tools to armor and miscellaneous items. All these are made in this multi-use block. You can craft it using four of any &6wood&r &6planks&r in your &1inventory.&r"]
+			id: "4526A684C2203CB3"
+			rewards: [{
+				id: "54F7023A9ADC0AAB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 2.5d
+			tasks: [{
+				id: "55EDB2D253429E4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:workbench"
+					}
+				}
+				only_from_crafting: true
+				title: "Any #forge:workbench"
+				type: "item"
+			}]
+			title: "Get a Crafting Table"
+			x: -15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4526A684C2203CB3"]
+			description: ["The &4furnace&r is another great starting block, as it can be used from early game onward to &cbake&r and &csmelt&r items. It has more uses than I can list, so you'll have to discover them yourself. To craft a &4furnace&r, place 8 &6cobblestone&r blocks in a box structure in the &1crafting&r &1table&r. "]
+			icon: "minecraft:furnace"
+			id: "5F320F3C3F4F7B2B"
+			rewards: [{
+				id: "1D510B5940CC24AB"
+				type: "xp"
+				xp: 6
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "7798FBAB62EE86A7"
+				item: "minecraft:furnace"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Get a Furnace"
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4526A684C2203CB3"]
+			description: ["The &4torch&r is an essential item for your journey. It &clights&r up the surroundings and keeps &5monsters&r at bay. This tool is particularly helpful during nighttime, ensuring the safety of you and your property. You can craft a torch using &6coal&r or &6charcoa&rl and a &6stick&r in your &1inventory&r or at a &1crafting&r &1table.&r "]
+			id: "062F52384AE1C774"
+			rewards: [{
+				id: "16E3338C36636E09"
+				type: "xp"
+				xp: 8
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "22199AAD83C0CD67"
+				item: "minecraft:torch"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Make a Torch"
+			x: -15.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4526A684C2203CB3"]
+			description: ["&4Beds&r are essential. They allow you to &csleep&r through the night and restore your health, which is crucial as many &5monsters&r appear after dark. To craft a &4bed&r, you need three of any type of &6wooden&r &6planks&r and three of any color of &6wool&r. Beds can be made using a &1crafting&r &1table.&r"]
+			id: "6D23F4A975AB58C2"
+			rewards: [{
+				id: "3AA843CD9FFC798B"
+				type: "xp"
+				xp: 15
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "08D87EB80FFA3F88"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				only_from_crafting: true
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "Craft a Bed"
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6D23F4A975AB58C2"
+				"4526A684C2203CB3"
+				"5F320F3C3F4F7B2B"
+				"062F52384AE1C774"
+				"5B8A78DE4206841A"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fiahi:food": { }
+				}
+				id: "minecolonies:golden_bread"
+			}
+			id: "003DEDF4E6E5717E"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "handcrafted:golden_thick_pot"
+				id: "267BE22FC1FA712B"
+				table_id: 3164555529488975635L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5CA290485ADF23CB"
+				title: "Reward"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4526A684C2203CB3"]
+			description: ["&4Chests&r are helpful blocks as they let you &cstore&r your items in them. They can be very useful since your inventory space is quite limited. Chests are crafted using 8 of any type of &6wooden&r &6planks&r in a &1crafting&r &1table.&r"]
+			id: "5B8A78DE4206841A"
+			rewards: [{
+				id: "7692C524DF86AE9D"
+				type: "xp"
+				xp: 18
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "272C3244BAF30070"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				only_from_crafting: true
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			title: "Craft a chest"
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			description: ["A &4blast&r &4furnace&r is a valuable block that significantly speeds up ore &csmelting&r compared to a regular furnace. It's particularly useful when you're short on fuel or need to &csmelt&r quickly. You can craft it using a &1crafting&r &1table&r."]
+			id: "345F2A5C5E8A11CC"
+			rewards: [{
+				id: "2E05924BAE2B6D16"
+				type: "xp"
+				xp: 31
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "34DBFDC6E4FD95B4"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Craft a Blast Furnace"
+			x: -30.0d
+			y: -14.0d
+		}
+		{
+			description: ["An &4anvil&r is a versatile tool with many uses, including&c enchanting&r and &crepairing&r weapons and armor. It can also perform other essential tasks. You can craft an &4anvil&r using a &1crafting&r &1table&r"]
+			id: "03C2E9C44687B1FC"
+			rewards: [{
+				id: "420081CDBDC1B935"
+				type: "xp"
+				xp: 21
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5027BDB022FA41D5"
+				item: "minecraft:anvil"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Craft a Anvil"
+			x: -28.0d
+			y: -14.0d
+		}
+		{
+			description: ["An &4enchanting&r &4table&r is a magical tool that uses books and lapis lazuli to &cenchant&r weapons, armor, and tools. The level of the enchantment depends on your experience and the resources used. You can craft an &4enchanting&r &4table&r using a &1crafting&r &1table&r."]
+			id: "609D5F4138471E40"
+			rewards: [{
+				id: "6D50DE56484C63A9"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "12D78CB3E6E1E9EB"
+				item: "minecraft:enchanting_table"
+				match_nbt: false
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Craft a Enchanting Table"
+			x: -29.0d
+			y: -16.0d
+		}
+		{
+			id: "32B254E67811917B"
+			rewards: [{
+				id: "0AAEAE522F8C85ED"
+				type: "xp"
+				xp: 30
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "671C6AB7BBC45C13"
+				item: "minecraft:smithing_table"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Craft  a Smithing Table "
+			x: -31.0d
+			y: -12.0d
+		}
+		{
+			description: ["A&4 cartography&r &4table&r is used by &9cartographers&r to manipulate maps, allowing you to &cenlarge&r, &cshrink&r, &ccopy&r, and perform other essential tasks. You can find them in villages with &9cartographers&r or &ccraft&r them using a &1crafting&r &1table&r."]
+			id: "09E35FCE06DB9FA9"
+			rewards: [{
+				id: "2BF50F86885E4853"
+				type: "xp"
+				xp: 12
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "36EC82BE3745C29C"
+				item: "minecraft:cartography_table"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Craft a Cartography Table"
+			x: -27.0d
+			y: -16.0d
+		}
+		{
+			description: ["A &4stonecutter&r is a versatile tool that allows you to &ctransform&r common blocks like cobblestone into a variety of decorative and functional blocks. You can craft a &4stonecutter&r using a &1crafting&r &1table&r"]
+			id: "28A0787C35C37EBC"
+			rewards: [{
+				id: "001EA473D46A8F45"
+				type: "xp"
+				xp: 15
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "7BE28D5921616EA3"
+				item: "minecraft:stonecutter"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Craft a Stonecutter"
+			x: -27.0d
+			y: -12.0d
+		}
+		{
+			description: ["A &4loom&r is a valuable tool that allows you to craft intricate banners using dyes and patterns. You can create a &4loom&r using a &1crafting&r &1table&r."]
+			id: "73A65A2089B0AB9C"
+			rewards: [{
+				id: "37C0CFCB200C4CF0"
+				type: "xp"
+				xp: 20
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "741D72EEE3887557"
+				item: "minecraft:loom"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Craft a Loom"
+			x: -31.0d
+			y: -16.0d
+		}
+		{
+			disable_toast: true
+			id: "172C830B829FC154"
+			rewards: [{
+				auto: "invisible"
+				command: "/say Hi, @p welcome to your assigned planet. Please reffer to Your gude book for more info"
+				console: true
+				elevate_perms: true
+				id: "0B5B237CB67CB0ED"
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			secret: true
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 60L
+				gameTime: "game"
+				id: "46CB6D9EE463F4FF"
+				secret: true
+				type: "questsadditions:time"
+			}]
+			x: 3.0d
+			y: -22.5d
+		}
+	]
+	title: "Crafting "
+}

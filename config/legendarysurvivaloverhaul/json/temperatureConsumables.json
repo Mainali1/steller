@@ -1,0 +1,385 @@
+{
+  "farmersdelight:fish_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "beachparty:sweetberry_icecream": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "beachparty:cocoa_cocktail": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 2400
+    }
+  ],
+  "legendarysurvivaloverhaul:melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:chicken_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:vegetable_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "minecraft:melon_slice": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:hot_cocoa": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 3600
+    }
+  ],
+  "beachparty:icecream_coconut": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "beachparty:icecream_sweetberries": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "beachparty:coconut_icecream": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "farmersdelight:beef_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "beachparty:sweetberries_cocktail": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "beachparty:refreshing_drink": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "beachparty:pumpkin_cocktail": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "beachparty:sweetberry_milkshake": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -3,
+      "duration": 4800
+    }
+  ],
+  "beachparty:honey_cocktail": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "minecraft:rabbit_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "beachparty:icecream_cactus": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "beachparty:chocolate_milkshake": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -3,
+      "duration": 4800
+    }
+  ],
+  "minecraft:suspicious_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:baked_cod_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "beachparty:melon_cocktail": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "minecraft:mushroom_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "beachparty:coconut_milkshake": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -3,
+      "duration": 4800
+    }
+  ],
+  "farmersdelight:pumpkin_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "legendarysurvivaloverhaul:glistering_melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "beachparty:icecream_melon": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "beachparty:chocolate_icecream": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -3,
+      "duration": 3600
+    }
+  ],
+  "beachparty:icecream_chocolate": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "beachparty:coconut_cocktail": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "alexscavesdelight:vanilla_ice_cream": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 1200
+    }
+  ],
+  "alexscavesdelight:uranium_pie": [
+      {
+        "group": "FOOD",
+        "temperatureLevel": 2,
+        "duration": 6000
+      }
+    ],
+  "alexscavesdelight:toxic_jem": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 1200
+    }
+  ],
+  "delightful:matcha_ice_cream": [
+    {
+      "group":"FOOD",
+      "temperatureLevel":-1,
+      "duration": 600
+    }
+  ],
+  "delightful:salmonberry_ice_cream": [
+    {
+      "group":"FOOD",
+      "temperatureLevel":-1,
+      "duration": 600
+    }
+  ],
+  "delightful:cactus_soup_cup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 600
+    }
+  ],
+  "delightful:field_salad": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 600
+    }
+  ],
+  "delightful:singang": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "delightful:azalea_tea": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "delightful:lavender_tea": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "delightful:ender_nectar": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "delightful:matcha_latte": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 1200
+    }
+  ],
+  "delightful:berry_matcha_latte": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -3,
+      "duration": 1200
+    }
+  ],
+  "delightful:nut_butter_bottle": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "delightful:cantaloupe_popsicle": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:melon_popsicle": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -3,
+      "duration": 600
+    }
+  ],
+  "suplementaries:pancake": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 400
+    }
+  ],
+  "delightful:crab_rangoon": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 500
+    }
+  ],
+  "alexsdelight:brainfungus_sandwich": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 200
+    }
+  ],
+  "farmsdelight:melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "farmsdelight:melon_popsicle": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -3,
+      "duration": 600
+    }
+  ],
+  "miners_delight:improvised_barbecue_stick": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:grilled_salmon": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ]          
+}

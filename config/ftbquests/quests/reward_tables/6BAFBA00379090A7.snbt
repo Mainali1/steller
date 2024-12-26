@@ -1,0 +1,20 @@
+{
+	icon: "minecraft:chest"
+	id: "6BAFBA00379090A7"
+	loot_size: 1
+	order_index: 3
+	rewards: [{
+		item: {
+			Count: 1
+			id: "minecraft:written_book"
+			tag: {
+				author: "padviper"
+				filtered_title: "The message"
+				pages: ["{\"text\":\"Seeing Your perfomance, the heighier ups have decidied that you are now elegeable to get the bluprints for making guns. Which will help you triverse this planet more easily. Hope you like the presents \"}"]
+				resolved: 1b
+				title: "The message"
+			}
+		}
+	}]
+	title: "cgm"
+}

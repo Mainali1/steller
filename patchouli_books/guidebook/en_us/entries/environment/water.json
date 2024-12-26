@@ -1,0 +1,23 @@
+{
+    "name": "Water",
+    "icon": "legendarysurvivaloverhaul:purified_water_bottle",
+    "category": "patchouli:environment",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "Water is essential for the survival of life on this planet. without it you will suffer from dehydration and eventually die. You are given 5 purified water bottles when you land in the planet. You can also drink water from the water sources in the planet although they might have bad effect on you. You can collect water from any water source in this planet but almost all are unpurified and arent suitable for drinking. It can be purified by boiling the water. You can also buy water from the sattelite incase you have no water."
+        },
+        {
+            "type": "crafting",
+            "recipe": "legendarysurvivaloverhaul:canteen",
+            "text": "Canteen is a portable water container that can store upto 10 bottles of water in it. It can be used during long travels or while mining a cave or doing various tasks where water is hard to find."
+        },
+        {
+            "type": "spotlight",
+            "item": "minecraft:melon_slice,minecraft:sweet_berries,minecraft:glow_berries,minecraft:chorus_fruit,quark:ancient_fruit,minecraft:carrot,minecraft:mushroom_stew,minecraft:beetroot_soup,legendarysurvivaloverhaul:apple_juice,legendarysurvivaloverhaul:beetroot_juice,legendarysurvivaloverhaul:cactus_juice",
+            "title": "Food and Drinks",
+            "text": "Water can not only be obtained from rivers and oceans but it can also be found in diffrent kinds of fruits and vegrtables and some of the cooked food can also contain them. Some of those fruits and vegetables can also be crafted into juice that gives you a lot of water."
+        }
+    ]
+}

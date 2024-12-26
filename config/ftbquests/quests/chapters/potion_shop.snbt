@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "potion_shop"
+	group: "69F2203A4E22ED8A"
+	id: "46FEF3150263754F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "legendarysurvivaloverhaul:heat_immunity"
+				}
+			}
+			id: "14E5E584E7B5177F"
+			rewards: [{
+				auto: "no_toast"
+				id: "15DDA8FD10441154"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "legendarysurvivaloverhaul:heat_immunity"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "71390D1F14978DA9"
+				item: { Count: 9, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			title: "Buy Heat Immunity"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "legendarysurvivaloverhaul:cold_immunity"
+				}
+			}
+			id: "04127A7AECB8938E"
+			rewards: [{
+				auto: "no_toast"
+				id: "17465AF126507E89"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "legendarysurvivaloverhaul:cold_immunity"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				id: "3F3945519045DEE0"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			title: "Buy Cold Immunity"
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	title: "Potion Shop"
+}

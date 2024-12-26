@@ -1,0 +1,50 @@
+{
+	icon: "minecraft:chest"
+	id: "2BEAC27CCF304713"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					author: "padviper"
+					filtered_title: "Letter 1"
+					pages: [
+						"{\"text\":\"It's impressive you've come this far. The war here hasn't slowed down, so the progress is going well. We've received more funding for our project,but right now the government wants us to work as a separate entity and establish ourselves as a trade company.The main ship—where we are\"}"
+						"{\"text\":\"—will now turn into a commercial hub. It'll be responsible for sending refugees, as well as receiving items through the Table and sending them here. We'll then sell these to the government, take our share of the credits, and convert them into EMC for you to use. Sometimes you may be asked to send \"}"
+						"{\"text\":\"energy or be directly contacted by the government to provide something without compensation. It's a loss, but we can't do anything about it. Continue working, and here's a gift from us: we've carefully researched and sourced this house from your local materials. We hope\"}"
+						"{\"text\":\" it's to your liking. We'll contact you soon when we return.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n              Captain out.\"}"
+					]
+					title: "Letter 1"
+				}
+			}
+			weight: 0.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "create:schematic"
+				tag: {
+					Anchor: {
+						X: 0
+						Y: 0
+						Z: 0
+					}
+					Bounds: [
+						53
+						49
+						39
+					]
+					Deployed: 0b
+					File: "Big Spruce Survival Base.nbt"
+					Mirror: "NONE"
+					Owner: "padviper"
+					Rotation: "NONE"
+				}
+			}
+		}
+	]
+	title: "initial_book_schematic"
+}

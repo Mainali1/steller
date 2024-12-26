@@ -1,0 +1,51 @@
+{
+    "name": "Starter Items",
+    "icon": "create_sa:rose_quartz_axe",
+    "category": "patchouli:start_here",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "These are all the items that are are sent with to the planet please study them carefully to learn more about them"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Starter Tools",
+            "item": "create_sa:rose_quartz_pickaxe,create_sa:rose_quartz_sword,create_sa:rose_quartz_shovel,create_sa:rose_quartz_axe",
+            "text": "These are the tools that are sent with you to the planet to help you survive and gather resources. They are top of the line with excellent mining ablity fast speed and harvest and do a decent dammage. Use emc table to repare if damaged"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create_sa:large_filling_tank",
+            "text": "The large filling tank is a fuel tank that can store 32buckets of fuel(water). It is used to fuel up the jetpack in your chest as long as its in your inventory or your hand."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create_sa:copper_helmet,create_sa:copper_jetpack_chestplate,create_sa:copper_leggings,create_sa:copper_boots",
+            "text": "The copper armor is a set of armor that is sent with you to the planet to help you survive and protect you from the elements. the emc table can be used to repair it using emc. The chesplate with the jetpack gives you vertical fluying up to the maximmum of 15 blocks and runs on water.",
+            "title": "Starter Armor"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "sophisticatedbackpacks:backpack",
+            "text": "You are also assigned this top of the line backpack which can be upgraded to hold a lot of stuff and with all the modifications it can be turned into a walking base as it can have almost all vanilla stations as well as can store power and fluids."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "ftbquests:book,alexscaves:cave_book",
+            "title": "Books",
+            "text": "These are the books that are sent with you to the planet to help you learn more about the planet and its inhabitants. The cave book is a guide to the caves and the book is a guide to the quests that you can do on the planet."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "projecte:transmutation_table",
+            "text": "This is one of the best tool and may even be the center of your mission. What it does is it lets you store anything inside of it which has emc value and adds it to the total value and lets you take it out as long as you have the emc amount avalable with you."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "currency",
+            "item": "numismatics:spur,numismatics:bevel,numismatics:sprocket,numismatics:cog,numismatics:crown,numismatics:sun",
+            "text": "These are the physical representation of the emc value. They can be used to buy and sell items or anything with other survivors as well as can be used to buy potion, food and items from the spacestation."
+        }
+    ]    
+}

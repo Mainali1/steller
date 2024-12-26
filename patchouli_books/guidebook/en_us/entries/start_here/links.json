@@ -1,0 +1,21 @@
+{
+    "name": "Links",
+    "icon": "fluxnetworks:flux_plug",
+    "category": "patchouli:start_here",
+    "pages": [
+
+        {
+           "type": "link",
+           "url": "https://discord.gg/ApBHwTgeQH",
+           "link_text": "Discord",
+           "text": "If you run into any issues or have any ideas for the modpack, or just want to chat with other modders, feel free to join our Discord server and ask for help!"
+        },
+
+        {
+            "type": "link",
+            "url": "https://github.com/Mainali1/steller/wiki",
+            "link_text": "Wiki",
+            "text": "Check out the wiki for more information on the modpack and its features!"
+        }
+    ]
+}

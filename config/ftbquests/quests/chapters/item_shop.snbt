@@ -1,0 +1,66 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "item_shop"
+	group: "69F2203A4E22ED8A"
+	id: "0D49D5EA5EC89166"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "legendarysurvivaloverhaul:plaster"
+			id: "6F773933AE127116"
+			rewards: [{
+				auto: "no_toast"
+				id: "7CF04F257C02911A"
+				item: "legendarysurvivaloverhaul:plaster"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4BFB2DB46697A057"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			title: "Buy Plaster"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "simpleradio:transceiver"
+				tag: { }
+			}
+			id: "01620680F7D9E416"
+			rewards: [{
+				auto: "no_toast"
+				id: "2B92B70053ECE4AF"
+				item: {
+					Count: 1
+					id: "simpleradio:transceiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				disable_toast: true
+				id: "61F627E2E0195145"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			title: "Buy Transceiver"
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "Item Shop"
+}

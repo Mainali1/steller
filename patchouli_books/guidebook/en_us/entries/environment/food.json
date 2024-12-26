@@ -1,0 +1,27 @@
+{
+    "name": "Food",
+    "icon": "minecraft:bread",
+    "category": "patchouli:environment",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "Food is essential for the survival in this planet. Food cab be cooked with a lot of vegges as well as meat from diffrent plants and animals in this planet. You are given 5 bread when you land in the planet. At the start you can make simple food like breads as well as you can grill meat. Bread can also be purchased from the sattelite incase you have no food."
+        },
+        {
+            "type": "text",
+            "text": "Due to enviromental factors, the food cooked will be spoilled slowly and would be unedable after a certain period of time. Raw food like vegetables, fruts etc can be stored in emc table but any cooked food wont be allowed  to be stored. The spoilage can be stopped by either saulting the food or storing them in launch basket as well as in shelves and cabinets if  its covered by ice.",
+            "title": "Food Spoilage"
+        },
+        {
+            "type": "text",
+            "title": "Salt",
+            "text": "Salt can ve very useful to preserve food from spoling. Alot of food can be salted to preserve it from spoilage. To make it, you can either find raw rock salt in the wild to convert it to salt or you can boil water in cauldron with any heat source below and after some time salt can be extracted. You can also buy salt from a butcher in the village. you can also buy salt from the sattelite station."
+        },
+        {
+            "type": "crafting",
+            "recipe": "supplementaries:lunch_basket",
+            "text": "This item is used to store food and prevent it from spoiling. It can store upto 6 items and can also be placed down. It can be opened by right clicking in the inventory to quickley access the stored food inside of it."
+        }
+    ]
+}

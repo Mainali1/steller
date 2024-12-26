@@ -1,0 +1,949 @@
+{
+	autofocus_id: "388E13F5D017BCEE"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "boss_fight"
+	group: ""
+	id: "06238E30CA172B11"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "270B650E2C40E46F"
+			rewards: [
+				{
+					id: "22E7DA7A58FD5D5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "407AAE32DB4D3A3F"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "3EFF8B1DFBE2BBC6"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0A6566FC667F2B4A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Monstracity"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			id: "1B9681D08818FF24"
+			rewards: [
+				{
+					id: "3B904AC7A2CDE067"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "564DA700E3450B0C"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "6A12F7E912A2795B"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:wither_assault_shoulder_weapon"
+				id: "63C40B97C65EAC26"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Hell Bringrer"
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			id: "60DCB3C463EC2019"
+			rewards: [
+				{
+					id: "25AE0442BB91A0CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "76CC1089B098F0B7"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "2F48AEF72CF278F0"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "430C535EBC5E7224"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Magical One"
+			x: -18.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			id: "073A567CA1C1DDCD"
+			rewards: [
+				{
+					id: "5513AA2DE5EE7913"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "3B86863F81D18CA4"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "7D7BF25D158E5592"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:sandstorm_in_a_bottle"
+				id: "2E3D38043107B746"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ancient one"
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			id: "1A95AEBB96A15DB4"
+			rewards: [
+				{
+					id: "387079902010C274"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "417370BE75865FE1"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "03611F0F61F19B65"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:tidal_claws"
+				id: "08A9E10344D1EA2C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Submerged Monster"
+			x: -21.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			id: "3BAFC62992BF6F5F"
+			rewards: [
+				{
+					id: "18D402C2C9DBE9A2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "171C06561A699CC3"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "5E7AAA808E1D11B0"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:the_incinerator"
+				id: "384271F6E7ACAD58"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ruler of Hell"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			id: "5FFB5F65B480CD88"
+			rewards: [
+				{
+					id: "4DCE6BC90C597AD2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "1A8C4E605109B55F"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "48B2629DE43BE0C9"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "12D6BC6DC601146F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Final Gaurdian"
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: "stalwart_dungeons:awful_crystal"
+			id: "5AA101E3C7B41F68"
+			rewards: [
+				{
+					id: "125F9765D66496D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "636F2EC3D362B44D"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: "stalwart_dungeons:awful_crystal"
+				id: "7F2D1DD4600585D7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ugly One "
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "stalwart_dungeons:ancient_fire"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "556C397FF121197F"
+			rewards: [
+				{
+					id: "45BCA34DAF99D451"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "367DA38BFE17E506"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "7EB15217D31ADFC7"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0996922560427728"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Flaming One"
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			id: "1C19AD8ECCAEB9A2"
+			rewards: [
+				{
+					id: "7DFB7F54DB7E56FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "36BAF692740CFC1E"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "3E133EDE2504D573"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer"
+				icon: "stalwart_dungeons:void_crystal"
+				id: "60C204F3B655E3F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The squicy one "
+			x: -15.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			id: "51A2A0F0BF660598"
+			rewards: [
+				{
+					id: "715AD47B64DEB97E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "1AF77CEEFAD5DE2C"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "79634BCAEE7B8D6D"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "alexsmobs:void_worm_part"
+				icon: "alexsmobs:void_worm_eye"
+				id: "7CA0524E95CE0556"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Void Monster"
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:sol_visage"
+				tag: { }
+			}
+			id: "388E13F5D017BCEE"
+			rewards: [
+				{
+					id: "34D934969F784488"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "3FFC3F22AF5395FC"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "7735A5EEEFF9AA4E"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mowziesmobs:sol_visage"
+					tag: { }
+				}
+				id: "3B3C2A93D6EB51C4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Sun God"
+			x: -9.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			id: "44291349F434C0B1"
+			rewards: [
+				{
+					id: "5BE9B18331A5C937"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "35C1A1C015C72223"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "764D84D29E78DA06"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:monolith_block"
+				id: "16CCCAC0D5120908"
+				title: "Kill 1x Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Giant Tower"
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			id: "60A92407F5B45301"
+			rewards: [
+				{
+					id: "618DDC77CD9C4614"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:watch_of_flowing_time"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3BA88ADC911917DD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "132E69AAB6D07357"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "3B9CA1A01C4925E9"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "602649AD738648AD"
+				title: "Kill 1x Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Living Hand"
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			id: "46CE4A0CDA0F854E"
+			rewards: [
+				{
+					id: "5DDCCB0D0AE77376"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "72A9DAFFE805DDEC"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "05570478C5789E2B"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "7A6F9C91CDC50A13"
+				title: "Kill 1x NightLicht"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Dark Magician"
+			x: -13.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			id: "0572511ADEAC6071"
+			rewards: [
+				{
+					id: "48B88B93106714AD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "27CFF99AE4630A6C"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "42564DD49DF9A0CF"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fiahi:food": { }
+					}
+					id: "bosses_of_mass_destruction:crystal_fruit"
+				}
+				id: "2F5BD97C3746DAEE"
+				title: "Kill 1x Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Living Plant"
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			id: "68E7E3546D540598"
+			rewards: [
+				{
+					id: "67A5B57E56DA6248"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "6601F6C7B50868F6"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "204B19C1D3CF28BD"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "42F7B56E273D27A0"
+				title: "Kill 1x Frostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Chilly Protector"
+			x: -16.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			id: "50DDE4A812277FB6"
+			rewards: [
+				{
+					id: "60CF24E2133346AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "0EFBC0EDA7FC8107"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "42F33BE1DB739C6D"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mowziesmobs:wrought_helmet"
+					tag: { }
+				}
+				id: "71C857372A7098A4"
+				title: "Kill 1x Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The corrupted Knight"
+			x: -12.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			id: "3903C55A3D8C853B"
+			rewards: [
+				{
+					id: "7D63B9A1FC029A08"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "41552A660829727F"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "2F78211AE2A4D685"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7DE74F7886B923AB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Dark Protector"
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			id: "43FECD762E760D3F"
+			rewards: [
+				{
+					id: "750F3F782D3E1329"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "403B9C310DAF432C"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "0D52A78B64F6C7C2"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:prismarine_shard"
+				id: "425E610D37155466"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ruler of Sea"
+			x: -18.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "44D2666571748C16"
+			rewards: [
+				{
+					id: "54257FDB8AE4C5AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "78EBB8CDEA10FEA0"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "3DD260D4856AB5DE"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "617A1931F481A1A0"
+				title: "Kill 1x Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ruler of Death"
+			x: -15.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			id: "7C26FEAC8686909C"
+			rewards: [
+				{
+					id: "17D644C4118BF51D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "1609854A32AB306A"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "4A0AE5059B4447AA"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "36EEC6D8CB868210"
+				title: "Kill 1x Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ruler of the sky"
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			id: "16CBB74C947676A9"
+			rewards: [
+				{
+					id: "428A2C4C995865F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "775CEB7B3E6EF55E"
+					table_id: 1791087788829236028L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1000000"
+					id: "534833BD524D5D8D"
+					silent: true
+					title: "Reward Money"
+					type: "command"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: {
+					Count: 1
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3C0BC5CD56DC3892"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Far One"
+			x: -9.0d
+			y: 18.0d
+		}
+	]
+	title: "Boss Fight"
+}

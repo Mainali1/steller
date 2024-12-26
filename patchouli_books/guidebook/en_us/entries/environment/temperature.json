@@ -1,0 +1,26 @@
+{
+    "name": "Temperature",
+    "icon": "legendarysurvivaloverhaul:seasonal_calendar",
+    "category": "patchouli:environment",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "The temperature of the world is a key factor in the survival of life on this planet. The temperature can vary from hot and dry to cold and wet. The temperature is based on what biome you are in as well as how high are you in the world. Temprature not only effects your health but it can also effect your food and water situation. If the temprature is too hot you will start having dehydration and loose a lot of your water and if its too cold you will loose your food."
+        },
+        {
+            "type": "text",
+            "text": "To combat this issue you can either not go in places with abnormal temperature or you can cook food and soups which give chiiling and cooling effects to you. You can also buy potions to combat them from the sattelite in the potion shop. If you insted need a permanet solution you can use various armors which all have their own heat or cold resistances. More can be read in the next page."
+        },
+        {
+            "type": "crafting",
+            "recipe": "legendarysurvivaloverhaul:cooling_coat_1",
+            "recipe2": "legendarysurvivaloverhaul:heating_coat_1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "legendarysurvivaloverhaul:sewing_table",
+            "text": "cooling coat as well as heating coat can be crafted in a crafting station and applied to armors using sewing table which increases their resistances. according to the coat applied to them."
+        }
+    ]
+}

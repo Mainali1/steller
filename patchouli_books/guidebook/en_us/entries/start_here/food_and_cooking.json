@@ -1,0 +1,47 @@
+{
+    "name": "Food and cooking",
+    "icon": "farmersdelight:stove",
+    "category": "patchouli:start_here",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "It's crucial to secure food for survival—you won't last even a day without it. Exploring uses a lot of energy, which increases your hunger. Be sure to either harvest fruits, berries, and vegetables from the surrounding or hunt animals for their meat. In the beginning, a furnace will suffice to cook the meat. if you want to prepare tastier meals later on, you'll need to use a stove and a cooking pot."
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:stove",
+            "recipe2": "farmersdelight:cooking_pot",
+            "title": "cooking utensils"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:skillet",
+            "recipe2": "farmersdelight:cutting_board"
+        },
+
+        {
+            "type": "patchouli:text",
+            "text": "A skillet is a versatile cooking tool that eliminates the need for a furnace in many cooking tasks. Unlike a furnace, a skillet can bake items and cook minced or cut ingredients, making it an essential kitchen implement. $(br2) A cutting board is an essential kitchen tool. It provides a sturdy surface for slicing fruits, vegetables, and meat using any type of knife. This versatile tool also allows you to explore and prepare a wider variety of foods."
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmersdelight:iron_knife",
+            "recipe2": "minecraft:bowl"
+        },
+
+        {
+            "type": "patchouli:text",
+            "text": "A knife is a versatile tool for cutting and slicing food. It can be used to cut vegetables, fruits, and meat into smaller pieces, and can be used to clean and prepare meat. $(br2) A bowl is a versatile container for storing food. It can be used to store vegetables, fruits, and meat, and can be used to serve as a serving dish or as a cooking utensil."
+        },
+
+        {
+            "type": "patchouli:text",
+            "text": "In conclusion, it's essential to have a variety of cooking utensils and tools to prepare a wide range of foods. A skillet, a cutting board, and a knife are essential kitchen implements that can help you prepare a wide range of foods. A stove and a cooking pot are essential kitchen implements that can help you cook meat and prepare a variety of foods. $(br2) Remember to always keep a variety of foods in your inventory, as you'll need them to survive and thrive in the wilds."
+        }
+
+        
+    ]
+}

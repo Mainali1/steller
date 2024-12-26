@@ -1,0 +1,20 @@
+{
+	icon: "handcrafted:golden_thin_pot"
+	id: "268BFFCAA3D22A3D"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "villagertools:gears", random_bonus: 63 }
+		{ item: "villagertools:bribe", random_bonus: 63 }
+		{ item: "villagertools:restock", random_bonus: 63 }
+		{ item: "villagertools:forget", random_bonus: 63 }
+		{ item: "villagertools:contract", random_bonus: 63 }
+		{ item: "villagertools:darkness", random_bonus: 63 }
+		{ item: "villagertools:guard", random_bonus: 63 }
+		{ item: "villagertools:knowledge", random_bonus: 63 }
+		{ item: "villagertools:key", random_bonus: 63 }
+		{ item: "villagertools:badge", random_bonus: 63 }
+		{ item: "villagertools:cure", random_bonus: 63 }
+	]
+	title: "Villager loot"
+}

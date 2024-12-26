@@ -1,0 +1,250 @@
+{
+	autofocus_id: "5EDE3B2FF3600EEC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "blueprint_shop"
+	group: "69F2203A4E22ED8A"
+	id: "7D6A93FBF0ED4798"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "672EE34EAFEEF951"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p cannons true true"
+				elevate_perms: true
+				icon: "supplementaries:cannon"
+				id: "667AA8968876943B"
+				silent: true
+				title: "Unlocked Blueprints"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 114L
+				disable_toast: true
+				id: "79C1683AF5D8D34D"
+				item: { Count: 115, id: "minecraft:diamond_block" }
+				secret: true
+				task_screen_only: true
+				title: "Cannon Payment"
+				type: "item"
+			}]
+			title: "Purchase Cannon Blueprints ? "
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "30666B1AEE7CE5AF"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p optical true true"
+				elevate_perms: true
+				icon: "create_optical:optical_source"
+				id: "3757C48F599CAA32"
+				silent: true
+				title: "Unlocked Blueprints"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 60L
+				disable_toast: true
+				id: "53834DA0B161BC6D"
+				item: { Count: 60, id: "minecraft:diamond_block" }
+				task_screen_only: true
+				title: "Optical Payment"
+				type: "item"
+			}]
+			title: "Purchase Optical Blueprints ?"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "20B11BD0F2F18AE3"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p create_electricity true true"
+				elevate_perms: true
+				icon: "createaddition:electric_motor"
+				id: "134EF7FC385312C6"
+				silent: true
+				title: "Unlocked Blueprients"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 29L
+				disable_toast: true
+				id: "28F0790F42EBF228"
+				item: { Count: 29, id: "minecraft:diamond_block" }
+				task_screen_only: true
+				title: "Electrical Payment"
+				type: "item"
+			}]
+			title: "Purchase Electrical Blueprints ?"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "5EDE3B2FF3600EEC"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p create_sword true true"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "create_sabers:brass_saber_galaxy"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "51B3E4F16E299E9E"
+				silent: true
+				title: "Unlocked Blueprints"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 15L
+				disable_toast: true
+				id: "51DA0B0F72BE617A"
+				item: { Count: 15, id: "minecraft:diamond_block" }
+				task_screen_only: true
+				title: "Sword Payment"
+				type: "item"
+			}]
+			title: "Purchase Sword Blueprints ?"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "5A433A50B1968EC3"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p create_design true true"
+				elevate_perms: true
+				icon: "create_sa:brass_cube"
+				id: "01024E550458876F"
+				silent: true
+				title: "Unlocked Blueprint"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 29L
+				id: "50024DB678B62146"
+				item: "minecraft:diamond_block"
+				task_screen_only: true
+				title: "Design set 1 payment"
+				type: "item"
+			}]
+			title: "Purchase Design Set 1 ?"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "05C5D8D1308B893B"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p create_art true true"
+				elevate_perms: true
+				icon: "createdeco:copper_hull"
+				id: "3A0A8D4711581D1A"
+				silent: true
+				title: "Unlocked Blueprint"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 29L
+				id: "3CFA583987CDA673"
+				item: { Count: 29, id: "minecraft:diamond_block" }
+				task_screen_only: true
+				title: "Design set 2 Payment"
+				type: "item"
+			}]
+			title: "Purchase Design Set 2 ?"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "3873564939CCF325"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p trains true true"
+				elevate_perms: true
+				icon: "railways:track_create_dd_smoked_narrow"
+				id: "13780901FFAB655C"
+				silent: true
+				title: "Unlocked Blueprint"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 43L
+				id: "2B2E1610219A61B1"
+				item: { Count: 43, id: "minecraft:diamond_block" }
+				task_screen_only: true
+				title: "Rail Utility Payment"
+				type: "item"
+			}]
+			title: "Purchase Rail Utility ?"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "2B83B00904C1651D"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p create_decoration true true"
+				elevate_perms: true
+				id: "218E8A935EA4093D"
+				silent: true
+				title: "Unlocked Payment"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 29L
+				id: "025361A6F1BCCD1C"
+				item: { Count: 29, id: "minecraft:diamond_block" }
+				task_screen_only: true
+				title: "Design Set 3 Payment"
+				type: "item"
+			}]
+			title: "Purchase Design Set 3 ?"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "3221940015596E4B"
+			rewards: [{
+				auto: "no_toast"
+				command: "/astages add @p protection_pixel true true"
+				elevate_perms: true
+				icon: "protection_pixel:pneumaticgrenadelauncharm"
+				id: "563A7CCAA2DB6C04"
+				silent: true
+				title: "Unlocked Blueprint"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 49L
+				id: "2B73EA154E64F729"
+				item: { Count: 49, id: "minecraft:diamond_block" }
+				task_screen_only: true
+				title: "Protection Payment"
+				type: "item"
+			}]
+			title: "Purchase Protection Blueprints ?"
+			x: -3.5d
+			y: -5.5d
+		}
+	]
+	subtitle: ["Unlock blueprints and buy items"]
+	title: "Blueprint Shop"
+}

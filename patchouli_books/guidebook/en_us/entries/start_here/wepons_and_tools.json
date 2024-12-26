@@ -1,0 +1,68 @@
+{
+    "name": "wepons and tools",
+    "icon": "minecraft:iron_sword",
+    "category": "patchouli:start_here",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Wepons are a crucial aspect of survival in this planet. They provide you with a way to attack monsters, and can be used to defend yourself from them as well. $(br2) There are many different types of weapons, including swords, axes, bows, and crossbows. Each weapon has its own unique properties and uses. Choose the weapon that best suits your needs and style, and make sure to always have a backup weapon in case your primary one is destroyed or lost. $(br2) Remember to always practice safe swordplay and use common sense when firing your weapon."
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:iron_sword",
+            "recipe2": "minecraft:iron_axe"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:bow",
+            "recipe2": "minecraft:crossbow"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_longsword",
+            "recipe2": "simplyswords:iron_twinblade"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_rapier",
+            "recipe2": "simplyswords:iron_katana"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_sai",
+            "recipe2": "simplyswords:iron_spear"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_glaive",
+            "recipe2": "simplyswords:iron_warglaive"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_cutlass",
+            "recipe2": "simplyswords:iron_claymore"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_greathammer",
+            "recipe2": "simplyswords:iron_chakram"
+        },
+
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplyswords:iron_scythe",
+            "recipe2": "simplyswords:iron_halberd"
+        }
+
+       
+    ]
+
+}

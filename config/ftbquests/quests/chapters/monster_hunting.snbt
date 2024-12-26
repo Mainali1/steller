@@ -1,0 +1,1021 @@
+{
+	autofocus_id: "04C55B2DF46672C7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "monster_hunting"
+	group: ""
+	id: "02F626BB1C5ED45D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "minecraft:zombie_head"
+			id: "04C55B2DF46672C7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 200000"
+					elevate_perms: true
+					id: "11DE9F223EE90356"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "71568E46FD855C16"
+					title: "200k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "4A68A87501759B96"
+				type: "kill"
+				value: 150L
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:skeleton_skull"
+			id: "2FF4C277F59D71DA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 190000"
+					elevate_perms: true
+					id: "2FB0FAC0F3F96327"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "4297FBDA9B3C1F8F"
+					title: "190k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "6895EBFB46BD25A2"
+				type: "kill"
+				value: 150L
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:creeper_head"
+			id: "29074AC25ED66820"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "6B9154D60E59CAF0"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "39865E0B7AC6496D"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_head"
+				id: "5F1A40CEBFB0C53E"
+				type: "kill"
+				value: 60L
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "23B29360DFBD3AEE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "2AE2F2970F72A5C0"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "5E765DF2B498546B"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fiahi:food": { }
+					}
+					id: "minecraft:spider_eye"
+				}
+				id: "09772E39636BCD50"
+				type: "kill"
+				value: 180L
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			id: "278EC348E2DB62BD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 170000"
+					elevate_perms: true
+					id: "74A3936B5B83A537"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "createdeco:brass_coinstack"
+					id: "496E76C30500A501"
+					title: "170k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:drowned"
+				icon: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "252546C38DD304AF"
+				type: "kill"
+				value: 30L
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			id: "1DFE2DA5DBCEF2C8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "2FC91328AAEF52C4"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "66B6CFA843448F0F"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: "minecraft:fermented_spider_eye"
+				id: "1DECCEB58C8B7A5F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			disable_toast: true
+			id: "33AFACD101B89E0E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p cr_series true true"
+					elevate_perms: true
+					id: "22AB64F12DB69E76"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p You have gained access to cr series of  guns happy hunting"
+					console: true
+					elevate_perms: true
+					id: "1E12241531A458FF"
+					silent: true
+					type: "command"
+				}
+			]
+			secret: true
+			tasks: [{
+				disable_toast: true
+				id: "09CC9F536693826F"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 150
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:ender_eye"
+			id: "6DE6486BBC5DE09E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "765BC2E5B62122AA"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "3302901DDB348A84"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "minecraft:ender_eye"
+				id: "707D98E7BF745016"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:piglin_head"
+			id: "74A711EF40E467E2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 220000"
+					elevate_perms: true
+					id: "03CF33E5B46EFDBB"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "230207E59A253DF9"
+					title: "220k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: "minecraft:piglin_head"
+				id: "031DD61155F9587A"
+				type: "kill"
+				value: 70L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09D7BDCAA1E8BFE2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 210000"
+					elevate_perms: true
+					id: "12C8F853AD75D916"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "686533BFA35ACC6D"
+					title: "210k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "68EDA883A13AA5DB"
+				type: "kill"
+				value: 40L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"fiahi:food": { }
+				}
+				id: "alexscaves:sea_pig"
+			}
+			id: "57A73E4C634E015C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "555A376115C9486A"
+					ignore_reward_blocking: true
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "361F3010105B16A8"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"fiahi:food": { }
+					}
+					id: "alexscaves:sea_pig"
+				}
+				id: "4495218F1EA7E3ED"
+				type: "kill"
+				value: 70L
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			id: "6209C36EFD71C911"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 200000"
+					elevate_perms: true
+					id: "4BC788039E1947A3"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "2D7EA6C66C3C7B20"
+					title: "200k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: "minecraft:ice"
+				id: "1CFEF9939BE401E6"
+				type: "kill"
+				value: 70L
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			id: "3358127C5753C303"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 200000"
+					elevate_perms: true
+					id: "113D41E9C68C2F1F"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "7B8448CCE7489EE0"
+					title: "200k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				icon: "nethersdelight:hoglin_trophy"
+				id: "1569BB3EE9C6E75C"
+				type: "kill"
+				value: 65L
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: "alexsmobs:blood_sac"
+			id: "72D4E8D95F7F7D92"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 180000"
+					elevate_perms: true
+					id: "01D1C9DA77ECE895"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "417CBEBD70B83A79"
+					title: "180k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: "alexsmobs:blood_sac"
+				id: "093179D20B322FC3"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			id: "7DBF2CE761F8C280"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 130000"
+					elevate_perms: true
+					id: "3CE93DE92BA9CB09"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "486E6773665EBAEA"
+					title: "130k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:soul_vulture"
+				icon: "create_netherless:ectoplasm"
+				id: "7B5EE90CD78E3D9E"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			id: "4BF180ED05CB91AA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "3E40EAE2FF67B9FB"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "4E910035943FBBCB"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:totem_of_undying"
+				id: "1DAB644B867FD5A9"
+				type: "kill"
+				value: 23L
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "38FE826088C9467E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 280000"
+					elevate_perms: true
+					id: "22309B17E5854574"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "7108D498C77921AF"
+					title: "280k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "74B6A0FD0CE18E09"
+				type: "kill"
+				value: 30L
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "1D2AF36E6B1DB0F7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 200000"
+					elevate_perms: true
+					id: "15A1282270C9CA08"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "2B9A5463C85E24AD"
+					title: "200k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BA2F486C5EE7D0A"
+				type: "kill"
+				value: 65L
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			id: "7A0F33BFFE7D79C7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 210000"
+					elevate_perms: true
+					id: "4FF41A8ED06F34F1"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "42B98C97BADCC513"
+					title: "210k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ravager"
+				icon: "minecraft:jack_o_lantern"
+				id: "1C5B2F6B4AC42CCA"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			id: "3353CC96076C3C90"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 230000"
+					elevate_perms: true
+					id: "411967EAC6EB7440"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "2A8BDA7C900FCBDD"
+					title: "230k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "alexsmobs:hemolymph_sac"
+				id: "2ED0E8EF0CB9B510"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			id: "425189AEB081B25F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 120000"
+					elevate_perms: true
+					id: "07E3B96AB4989552"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "34AEE3FCFCF8F060"
+					title: "120k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:centipede_head"
+				icon: "alexsmobs:centipede_leg"
+				id: "5EA8DA180DF82FFF"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "3A65D8A3CA907ECE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "539B527D0237EC6F"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "51776234C6469F6E"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:straddler"
+				icon: "alexsmobs:straddlite"
+				id: "1C31A9D082CEC7F3"
+				type: "kill"
+				value: 20L
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "00042FDB80F05772"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 190000"
+					elevate_perms: true
+					id: "22A7A8A8EE2A287D"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "1EA37CC21116D50C"
+					title: "190k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:guster"
+				icon: "alexsmobs:guster_eye"
+				id: "34371B42D1CC7001"
+				type: "kill"
+				value: 90L
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "182C808B5AA431D9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 180000"
+					elevate_perms: true
+					id: "7A8BB38FAF843D4E"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "4F55AB26DC614E01"
+					title: "180k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:froststalker"
+				icon: "alexsmobs:froststalker_horn"
+				id: "21F7EC6C746A6245"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			id: "774EC2974E839F99"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "512078D48F2B2CB3"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "009910258D1CEF79"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:dropbear"
+				icon: "alexsmobs:dropbear_claw"
+				id: "39FF7F587BAD2367"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "17F7E271003F641F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "689F117EFE44D47E"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "1CB37FB84DA07366"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:murmur"
+				icon: {
+					Count: 1
+					id: "alexsmobs:tendon_whip"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "260A03759D5DDA7A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "4C283E0513F99A07"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "1D6FF04021F0C4CF"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "46357E3CB36191A6"
+					title: "200k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:skreecher"
+				icon: "alexsmobs:void_worm_mandible"
+				id: "59F78333E9F92A50"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			can_repeat: true
+			id: "714C1A16B4145F9A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "343F07C60661B060"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "6039A6754FA1AE1A"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:rocky_roller"
+				icon: "alexsmobs:rocky_shell"
+				id: "73FE96C6BA9C46A6"
+				type: "kill"
+				value: 30L
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			can_repeat: true
+			id: "6E276A10378B576E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 150000"
+					elevate_perms: true
+					id: "7AAA880A1675954F"
+					silent: true
+					type: "command"
+				}
+				{
+					icon: "createdeco:brass_coinstack"
+					id: "211D1266F33C3C15"
+					title: "150k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:anaconda"
+				icon: "alexsmobs:shed_snake_skin"
+				id: "3A05284DBCA5CDA6"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			disable_toast: true
+			id: "6F78A4B7E2495C75"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p e_series true true"
+					elevate_perms: true
+					id: "62243AB73EAB9C7B"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p You have gained access to e series of  guns happy hunting"
+					console: true
+					elevate_perms: true
+					id: "445A6D7B6E3F4F78"
+					silent: true
+					type: "command"
+				}
+			]
+			secret: true
+			tasks: [{
+				disable_toast: true
+				id: "3E247543830E6C54"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 300
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			disable_toast: true
+			id: "65815C5016104133"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p st_series true true"
+					elevate_perms: true
+					id: "7D9FD3AE9C80BC5A"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p You have gained access to st series of  guns happy hunting"
+					console: true
+					elevate_perms: true
+					id: "0B9D4EC03620ED5E"
+					silent: true
+					type: "command"
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "60E32AB594A1F7B7"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 600
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			disable_toast: true
+			id: "348BD591F4CAA26B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages @p add x_series true true"
+					elevate_perms: true
+					id: "5176B07FE847F1C8"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p You have gained access to x series of  guns happy hunting"
+					console: true
+					elevate_perms: true
+					id: "0D4DF02FD2D700DF"
+					silent: true
+					type: "command"
+				}
+			]
+			secret: true
+			tasks: [{
+				disable_toast: true
+				id: "161D6F9FBA1A02C0"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1200
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+	]
+	subtitle: ["Hunt down monsters"]
+	title: "Monster hunting"
+}

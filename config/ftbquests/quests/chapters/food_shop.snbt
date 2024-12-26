@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "food_shop"
+	group: "69F2203A4E22ED8A"
+	id: "56C94DBE221D7237"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:bread"
+			id: "47A1C9A286B67CA6"
+			rewards: [{
+				auto: "no_toast"
+				id: "7BEC630ACA0490A2"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1145BBF3FE999A4D"
+				item: { Count: 5, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			title: "Buy Bread"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "legendarysurvivaloverhaul:purified_water_bottle"
+			id: "11146EDA1716345B"
+			rewards: [{
+				auto: "no_toast"
+				id: "502B193F493891A6"
+				item: "legendarysurvivaloverhaul:purified_water_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5F9490EE08A5485A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			title: "Buy Water"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Food Shop"
+}

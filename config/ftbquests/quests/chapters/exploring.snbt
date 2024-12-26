@@ -1,0 +1,492 @@
+{
+	autofocus_id: "19E66367808B022D"
+	default_hide_dependency_lines: false
+	default_quest_shape: "flamingoblood"
+	disable_toast: true
+	filename: "exploring"
+	group: ""
+	id: "4C75B2B6E53DF7E0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "19E66367808B022D"
+			rewards: [
+				{
+					id: "5EFDDD6AAAF83D10"
+					item: "minecraft:emerald"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "409E1D472F81B0E2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "flamingoblood"
+			size: 1.5d
+			tasks: [{
+				advancement: "morevillagers:first_village"
+				criterion: ""
+				id: "2AF31E877FC1370C"
+				type: "advancement"
+			}]
+			title: "Find your first village "
+			x: 13.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["19E66367808B022D"]
+			id: "1199C65775DC2986"
+			rewards: [{
+				id: "0592A3C682169754"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+				id: "73A1974E62BFAF4E"
+				type: "advancement"
+			}]
+			title: "Trade with the villager"
+			x: 14.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["19E66367808B022D"]
+			id: "12EF6674856C0BE1"
+			rewards: [
+				{
+					id: "333B58CDB4B3933F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "159266897D32E6A9"
+					item: "minecraft:iron_ingot"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "18816B8DA2DEE566"
+				title: "Make an iron golem "
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["19E66367808B022D"]
+			id: "703254DBB3215677"
+			rewards: [
+				{
+					id: "34DC2C880A7D22A1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "2D08600713BB640F"
+					item: "minecraft:emerald"
+					random_bonus: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "morevillagers:master_trade"
+				criterion: ""
+				id: "4419431A1C68BE78"
+				title: "Level up the villager to max"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["19E66367808B022D"]
+			id: "5F7ADBCEF1BEAB14"
+			rewards: [
+				{
+					id: "5FDB3B52686A70A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "009A7AE2E61C60B2"
+					item: "minecraft:emerald"
+					random_bonus: 18
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "handcrafted:golden_thick_pot"
+					id: "2A160993BF8DBB6E"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "2C647A7014516964"
+				title: "Protect a village "
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -14.5d
+		}
+		{
+			description: ["Thats one way to never return home."]
+			id: "634BD7F6298E84D2"
+			rewards: [
+				{
+					count: 5
+					id: "4B689E333B3EF668"
+					item: "farmersdelight:rotten_tomato"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22198B8E616F74FA"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "0A106CA132AB773A"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			subtitle: "WOW "
+			tasks: [{
+				advancement: "morevillagers:kill_villager"
+				criterion: ""
+				id: "4122953B2F611B04"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: -19.5d
+		}
+		{
+			description: ["You aint ever leaving this planet without going to jail."]
+			id: "783AE6FC604DBB4A"
+			rewards: [
+				{
+					count: 5
+					id: "2452F21B3297923E"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3E3C275986378FD6"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+				{
+					id: "3E577AFE09103A66"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			subtitle: "No Words"
+			tasks: [{
+				advancement: "morevillagers:kill_babyvillager"
+				criterion: ""
+				id: "5776E45067B43158"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: -19.5d
+		}
+		{
+			id: "51E6237C36AC65EF"
+			rewards: [
+				{
+					id: "0A1E80D387F8393B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "6EFF54BEA727E120"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:klein_star_vier"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "biomesoplenty:biomesoplenty/all_biomes"
+				criterion: ""
+				id: "4A029F933AE62F17"
+				type: "advancement"
+			}]
+			title: "The Wanderer"
+			x: 10.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["5E3A316A86CDE450"]
+			id: "509A22BAE124FDDF"
+			rewards: [{
+				id: "6FF81BD51C521687"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "2400F5FBA525C0A0"
+				type: "advancement"
+			}]
+			title: "A ruined citadel"
+			x: 17.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5E3A316A86CDE450"]
+			id: "638F51633B1E1C7F"
+			rewards: [{
+				id: "749BA058D812CB22"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "3C3332966525A01B"
+				type: "advancement"
+			}]
+			title: "The Soul forge"
+			x: 18.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5E3A316A86CDE450"]
+			id: "7DB12B74596C091B"
+			rewards: [{
+				id: "236F03ED8D68BA26"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "7EBCEF436EF95B2C"
+				type: "advancement"
+			}]
+			title: "The sunken city"
+			x: 19.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5E3A316A86CDE450"]
+			id: "6984DE188D24683D"
+			rewards: [{
+				id: "279EBA9E494B2F84"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "3D1EE1E4B2A832F8"
+				type: "advancement"
+			}]
+			title: "The ancient civilization"
+			x: 20.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5E3A316A86CDE450"]
+			id: "36CD45060E668E0E"
+			rewards: [{
+				id: "28872263E10C5B6C"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "00F3ADBD4AF88E38"
+				type: "advancement"
+			}]
+			title: "The burning arena"
+			x: 21.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5E3A316A86CDE450"]
+			id: "1F40C4D9820D1975"
+			rewards: [{
+				id: "4182F5961C5FBB03"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "327DAF3871A9D66A"
+				type: "advancement"
+			}]
+			title: "The frosted prison"
+			x: 22.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5E3A316A86CDE450"]
+			id: "674ED66519DE9B65"
+			rewards: [{
+				id: "4ADBD2D98DF0D78D"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "3A230CB67B608724"
+				type: "advancement"
+			}]
+			title: "The cursed pyramid"
+			x: 23.5d
+			y: -15.5d
+		}
+		{
+			id: "5E3A316A86CDE450"
+			rewards: [{
+				id: "674C03CD7EECAFFA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "cataclysm:root"
+				criterion: ""
+				id: "16C81A37620BF382"
+				title: "The cataclysm"
+				type: "advancement"
+			}]
+			x: 20.5d
+			y: -12.0d
+		}
+		{
+			id: "62D78E1647E6F80A"
+			rewards: [{
+				id: "4750A71342218193"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "totw_modded:jungle_tower"
+				criterion: ""
+				id: "517DCF19F32CD5E2"
+				title: "Find a tower in the jungle"
+				type: "advancement"
+			}]
+			title: "Find a tower in the jungle"
+			x: 17.5d
+			y: -20.0d
+		}
+		{
+			id: "406E1C33A3A7647D"
+			rewards: [{
+				id: "4B82D57460A1CA22"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				advancement: "totw_modded:derelict_tower"
+				criterion: ""
+				id: "18031DCB31C885FC"
+				title: "Find an ancient tower"
+				type: "advancement"
+			}]
+			x: 19.5d
+			y: -20.0d
+		}
+		{
+			id: "7735CC30AA777058"
+			rewards: [{
+				id: "471BC89B62A6EBC2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "totw_modded:ice_tower"
+				criterion: ""
+				id: "2F6A553AC32594FA"
+				title: "Find a icy tower"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -20.0d
+		}
+		{
+			id: "2D4B75F1F5B14380"
+			rewards: [{
+				id: "7E393E44ABBA01A1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				advancement: "totw_modded:derelict_grass_tower"
+				criterion: ""
+				id: "48346EC482F841EE"
+				title: "Find a tower in the wild"
+				type: "advancement"
+			}]
+			x: 24.0d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"7735CC30AA777058"
+				"62D78E1647E6F80A"
+				"2D4B75F1F5B14380"
+				"406E1C33A3A7647D"
+			]
+			id: "0DAEA5B0266A30C4"
+			rewards: [{
+				id: "0D8F68F719C5C95C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "totw_modded:root"
+				criterion: ""
+				id: "1E69385062DF4B76"
+				title: "Find all the tower"
+				type: "advancement"
+			}]
+			x: 20.5d
+			y: -18.0d
+		}
+	]
+	subtitle: ["Explore the world "]
+	title: "Exploring"
+}

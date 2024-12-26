@@ -1,0 +1,1436 @@
+{
+	autofocus_id: "2C329FF0E6497538"
+	default_hide_dependency_lines: true
+	default_quest_shape: "diamond"
+	filename: "thermal"
+	group: ""
+	id: "548C6EC86718C3CF"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "2C329FF0E6497538"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p usefull_machine true true"
+					elevate_perms: true
+					id: "63C17FF97A01DBA0"
+					silent: true
+					team_reward: false
+					title: "Unlocked Technology"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "5969137865919E0E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 100L
+					id: "4BB08C269972E8E6"
+					item: "thermal:rf_coil"
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "7F85D2DFB35CD506"
+					item: "thermal:redstone_servo"
+					only_from_crafting: true
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "642877C60CFFAC7C"
+			rewards: [{
+				id: "1E946D3B68E8664E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5440E86B5E8115B7"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "4A63D3951A936EED"
+			rewards: [{
+				id: "6826F667286F70C7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62B9A7F5E8F34640"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "7AD4C2EF5BA5ED2D"
+			rewards: [{
+				id: "12041474FDE8E48F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09133DCD2D1788E4"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "4AF0489307EB01AE"
+			rewards: [{
+				id: "7449C409D5E4543B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "356D242688244C55"
+				item: "thermal:item_buffer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "21D86732A5AC0FC8"
+			rewards: [{
+				id: "081882B1C93333EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B1773BC1A58122D"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "6B7210287B97BFA7"
+			rewards: [{
+				id: "5E41CF217B1DCF2F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05959C92EC29EE5D"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "21FE06E2F1C7B975"
+			rewards: [{
+				id: "2BBA69B6B235CFCB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2AD9401DC4CE1D27"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "58D188E9D4342B9E"
+			rewards: [{
+				id: "5D0792B5AD09AA74"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A4EC0DEE2995FDD"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "0C966D0F126CE71F"
+			rewards: [{
+				id: "21A9A9ECD0CB402A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F8B140F812E9702"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "5CE5D4C7809D0B7A"
+			rewards: [{
+				id: "4F36E1658A9948BE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A2124FE3B03F176"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2C329FF0E6497538"]
+			id: "2EE9C90E608BAF22"
+			rewards: [{
+				id: "1F62C66D52F24CCB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66F6E6B90355591A"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			id: "64C785F41B26FF3B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p power_machine true true"
+					elevate_perms: true
+					id: "38F72434BAA08797"
+					silent: true
+					team_reward: false
+					title: "Unlocked Technology"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "053C73650EE8129F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "15428DE289C8E065"
+				item: "thermal:lightning_charge"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["64C785F41B26FF3B"]
+			id: "2AC788985A10B340"
+			rewards: [{
+				id: "6AAEA392747D326C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7EB5CCFDB0607B62"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64C785F41B26FF3B"]
+			id: "5C726ACEAAF0786C"
+			rewards: [{
+				id: "430BE28BA4949981"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0EE51D1A0CBDA36E"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64C785F41B26FF3B"]
+			id: "75EDF23E9F8C2BC6"
+			rewards: [{
+				id: "2734A52F94171B4D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "219BCC8636B83041"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["64C785F41B26FF3B"]
+			id: "4513B576E22A89A0"
+			rewards: [{
+				id: "56354E8211F3F92F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2CAE197B9644CCD9"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["64C785F41B26FF3B"]
+			id: "1602EA625DE0367A"
+			rewards: [{
+				id: "4AAB8D1BCE18ED6C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "004430FBF4344DD3"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64C785F41B26FF3B"]
+			id: "3CC1B232C50DACD1"
+			rewards: [{
+				id: "2C60445D82FFEECA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "281C965EF9FADB47"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["64C785F41B26FF3B"]
+			id: "5FF937E05844B2BD"
+			rewards: [{
+				id: "10B3B8E2C98A55FA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "395158D69BB9E048"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["194FB859CEE5C102"]
+			id: "509C9B25B1C049E2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p production_machines true true"
+					elevate_perms: true
+					id: "499996EAA5FB6537"
+					silent: true
+					title: "Unlocked Technology"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "7C355B4438C9AEE0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "1B2B304E2E392ADF"
+				item: "thermal:earth_charge"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "21A7B8E6F24C1148"
+			rewards: [{
+				id: "00F98F8726A71353"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26F363F2CEA21AD4"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "47FD7128E105F7F9"
+			rewards: [{
+				id: "5149A4883AE35FBF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66216E3B8702A63A"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "21E4D5C97A04F86A"
+			rewards: [{
+				id: "4A397D9B29E668E0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FA4ED3120350222"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "589B5E615F82978E"
+			rewards: [{
+				id: "4418E9D417153363"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20703BE9AFB95EA7"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "060E9DAF3C1325C1"
+			rewards: [{
+				id: "5FF4ABCD2BCA6F05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2B9A52B5FE16327A"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "30FEC99CE027DAF6"
+			rewards: [{
+				id: "7D168F6522DC62DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "097DDB6BF17957CA"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "65FB40901CAA6C3B"
+			rewards: [{
+				id: "1B16C039EE06E426"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A7F86020DDE8DDC"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "16BFC569E24D0C99"
+			rewards: [{
+				id: "6B7C841622499CE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1339607B6536DC08"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "7F45FCC48125D78B"
+			rewards: [{
+				id: "4C35CE1B512E5597"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "362D1A40667EFC66"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "2C1E5DB8630E7E76"
+			rewards: [{
+				id: "11F8AF8DE521EA09"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53DE365AB3378363"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "3F767EE1345C4A37"
+			rewards: [{
+				id: "193B3C61F5FB233B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "751170DFF0B25127"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "5891EF24FEB1AE22"
+			rewards: [{
+				id: "2A71910F74B25527"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "258D2B08FB591EE6"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "339EE45D355F96C0"
+			rewards: [{
+				id: "62A7F4DF59E0F9C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6351529C749E75A1"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "53064EAA191A16DF"
+			rewards: [{
+				id: "3C9DA3DCE8AE4062"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A24E33B528B759E"
+				item: "thermal:machine_crystallizer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["509C9B25B1C049E2"]
+			id: "0A0ADC7B5A4B25A3"
+			rewards: [{
+				id: "3B969B1C86F0A432"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5001A02E8DC5B4FA"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "59736B374437874B"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "71D5D7499DB5A936"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					auto: "invisible"
+					command: "/astages add @p storage true true"
+					elevate_perms: true
+					id: "6AAAFF168D6C24E2"
+					silent: true
+					title: "Unlocked Technology"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "7D85C39F679ED3B2"
+				item: { Count: 100, id: "thermal:silver_ingot" }
+				only_from_crafting: true
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["59736B374437874B"]
+			id: "1E021D70A049601C"
+			rewards: [{
+				id: "766A947ACB3F10FF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F79BCD9C0917723"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["59736B374437874B"]
+			id: "07AD383FCB0E3512"
+			rewards: [{
+				id: "4699FA85826945C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5146AFB09F9B07CC"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			id: "05FE6B440BBF8062"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p transportation_machines true true"
+					elevate_perms: true
+					id: "719E88E91668930A"
+					silent: true
+					title: "Unlocked Technology"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "2E3F5FC066B7CBB7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "6FD0A9E2013D34C1"
+				item: { Count: 100, id: "thermal:lead_ingot" }
+				only_from_crafting: true
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["05FE6B440BBF8062"]
+			id: "66DB1EA4C0C48B85"
+			rewards: [{
+				id: "4C7B36B2361E7E2E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66A4B58EE84D42AE"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["05FE6B440BBF8062"]
+			id: "7AAF831386EDCA58"
+			rewards: [{
+				id: "7AC8020DEB1E93B4"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "3DA72DBDAD439B73"
+					item: "thermal:fluid_duct"
+					type: "item"
+				}
+				{
+					id: "494928BF88E1501B"
+					item: "thermal:fluid_duct_windowed"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			id: "2D2B950A48DFF9E6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p useful_tools true true"
+					elevate_perms: true
+					id: "15EE8635A8F24530"
+					silent: true
+					title: "Unlocked Technology"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "76BA4765C31BED73"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "332A047E3E3ABA87"
+				item: "thermal:ice_charge"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "4B3BFBB51802D04F"
+			rewards: [{
+				id: "58EB4E4964E1C71D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "028B2E183F7CB924"
+				item: {
+					Count: 1
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "60BB25419BC6C867"
+			rewards: [{
+				id: "49EAEBAFEDE38557"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "576E7EA07F9B6343"
+				item: {
+					Count: 1
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "22A342A3C3E41100"
+			rewards: [{
+				id: "753D617D74CC1B6E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F61491F8BB67F14"
+				item: {
+					Count: 1
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "17E8EBEE866463D7"
+			rewards: [{
+				id: "42557EA17CFA3D80"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "10284B391E7B643F"
+				item: {
+					Count: 1
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "28651446A3E7A970"
+			rewards: [{
+				id: "58972079C3C8DC59"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "139C27A34CD6DF22"
+				item: {
+					Count: 1
+					id: "thermal:detonator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "5A6DD96108A5FFE8"
+			rewards: [{
+				id: "7F9453C9831BC4A7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6280B72FCB2C28F9"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "0296788516FB66C8"
+			rewards: [{
+				id: "7C9C536793FE002D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "329E19D518BBD262"
+				item: "thermal:lock"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "24429B052C006BFE"
+			tasks: [{
+				id: "59FE7AC654568370"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "56D5FEBB5253FCEF"
+			rewards: [{
+				id: "039A19AC7EB5C0D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6ECC58B6DD3CD099"
+				item: {
+					Count: 1
+					id: "thermal:rf_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "518D8D0606859644"
+			rewards: [{
+				id: "454FCE6C144F4FDE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12466C6B8FC83935"
+				item: {
+					Count: 1
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "4599C0B40C19DD11"
+			rewards: [{
+				id: "6DB20BBA5F746576"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B985C1315E25CAB"
+				item: {
+					Count: 1
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "58CC17BB408FCE61"
+			rewards: [{
+				id: "7A81EEC1FC9487DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30713F682365F7AA"
+				item: {
+					Count: 1
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2D2B950A48DFF9E6"]
+			id: "612616F944787AD4"
+			tasks: [{
+				id: "4F9EF3FF1595663C"
+				item: "thermal:redprint"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "097DCA2AB2FDCDC0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p power_mining true true"
+					elevate_perms: true
+					id: "28D5A7381E66159A"
+					silent: true
+					title: "Unlocked Technology"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "1D8B336CA0425BDC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "6997C5D9A4AC485E"
+				item: { Count: 100, id: "thermal:cinnabar" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "256040AD2F05C0F6"
+			rewards: [{
+				id: "360A45AAD8D8F7CF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "72D9CDAAEB85A8DF"
+					item: "thermal:ender_grenade"
+					type: "item"
+				}
+				{
+					id: "1AF1C02123718F8A"
+					item: "thermal:ender_tnt"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "3C41EA6495F6E180"
+			rewards: [{
+				id: "2DBA5844A0676203"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "73A9EC0A4453543C"
+					item: "thermal:glowstone_grenade"
+					type: "item"
+				}
+				{
+					id: "4B2AB2C5A23F8369"
+					item: "thermal:glowstone_tnt"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "46D9C172582E3A90"
+			rewards: [{
+				id: "79B3EF37573A2407"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7FD8B6F18B53019D"
+					item: "thermal:redstone_grenade"
+					type: "item"
+				}
+				{
+					id: "7654E32F19E1AE2E"
+					item: "thermal:redstone_tnt"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "44ADB664C3F0768D"
+			rewards: [{
+				id: "07BB7D1B5F034EDF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "77604BB3B3D075BA"
+					item: "thermal:slime_grenade"
+					type: "item"
+				}
+				{
+					id: "367A3A30902CD657"
+					item: "thermal:slime_tnt"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "3C75765617EA4B2F"
+			rewards: [{
+				id: "7405A8214B74F7AC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2F8CEC395B57C762"
+					item: "thermal:fire_grenade"
+					type: "item"
+				}
+				{
+					id: "5F2FE99B1F0B51FC"
+					item: "thermal:fire_tnt"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "63207B24283208EB"
+			rewards: [{
+				id: "2DA3067A6923E98E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4CFC5ABB052AD3D8"
+					item: "thermal:ice_grenade"
+					type: "item"
+				}
+				{
+					id: "778B3EFC4D30DA46"
+					item: "thermal:ice_tnt"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "4340661BB7266559"
+			rewards: [{
+				id: "59F940F8CE3FF7D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "775E4AE64E375942"
+					item: "thermal:lightning_grenade"
+					type: "item"
+				}
+				{
+					id: "23C7CC94B1558D73"
+					item: "thermal:lightning_tnt"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["097DCA2AB2FDCDC0"]
+			id: "553FCDD7DB3CA303"
+			rewards: [{
+				id: "65AB8F1CE6F3A4D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "51FBB89BF158DA62"
+					item: "thermal:earth_grenade"
+					type: "item"
+				}
+				{
+					id: "10C54A25DEE1E020"
+					item: "thermal:earth_tnt"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			id: "7DE0B3CB366519E4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/astages add @p thermal_armor true true"
+					elevate_perms: true
+					id: "744A3E61C522670B"
+					silent: true
+					title: "Unlocked Technology"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "7D659A6D808E1667"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "669DB75F32755958"
+				item: { Count: 100, id: "thermal:apatite" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7DE0B3CB366519E4"]
+			id: "78755BFF69F4620F"
+			rewards: [{
+				id: "77B4250048B83CB1"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [
+				{
+					id: "4775F9DD3587FA4A"
+					item: {
+						Count: 1
+						id: "thermal:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50C1CFBD96501C8E"
+					item: {
+						Count: 1
+						id: "thermal:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E77AA4CDAC12763"
+					item: {
+						Count: 1
+						id: "thermal:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DFB9D69AF56BEF0"
+					item: {
+						Count: 1
+						id: "thermal:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diving Suit"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7DE0B3CB366519E4"]
+			id: "75C75C9BA93913D3"
+			rewards: [{
+				id: "11F3C9A3B873B73C"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [
+				{
+					id: "6E8DDD8E7B122466"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E3DE17B58E0E89A"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A832CAD89ECEF1F"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "432DBF9A64F1FBA8"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat Suit"
+			x: 4.5d
+			y: -7.0d
+		}
+	]
+	title: "Thermal"
+}
