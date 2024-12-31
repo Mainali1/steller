@@ -381,9 +381,9 @@ ServerEvents.recipes(event => {
         type: 'farmersdelight:cooking',
         ingredients: [
             { item: 'delightful:nut_butter_bottle' },
-            { tag: 'forge:jelly' }
+            { tag: 'forge:jams' }
         ],
-        result: { item: 'delightful:nut_butter_and_jelly_sandwich' },
+        result: { item: 'delightful:nut_butter_and_jam_sandwich' },
         container: { item: 'minecraft:bread' },
         experience: 7,
         cookingtime: 160,

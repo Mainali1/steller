@@ -66,6 +66,4 @@
 	"Have guards only follow the player if they have hero of the village?" = true
 	#Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
-	#Range: -999.9000244140625 ~ 999.0
-	"Chance for guards to lose durability" = 1.0
 

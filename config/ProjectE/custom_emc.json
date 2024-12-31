@@ -539,6 +539,14 @@
     {
       "item": "thermal:niter",
       "emc": 620
+    },
+    {
+      "item": "bloomingnature:fan_palm_sprout",
+      "emc": 32
+    },
+    {
+      "item": "minecolonies:eggplant{\"spoiled:SpoilMaxTime\":40,\"spoiled:SpoilTimer\":17}",
+      "emc": 90
     }
   ]
 }
